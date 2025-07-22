@@ -1,0 +1,5 @@
+httpx
+praw
+pandas
+prefect
+python-dotenv
