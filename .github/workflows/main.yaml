@@ -25,9 +25,6 @@ jobs:
         pip install -r requirements.txt
         
     - name: Run Prefect flow
-      env:
-        PREFECT_API_KEY: ${{ secrets.PREFECT_API_KEY }}  # Set this in your repo secrets
-        PREFECT_WORKSPACE: ${{ secrets.PREFECT_WORKSPACE }}
       run: |
           cd python_scripts  # Move to the directory containing your module
           python -c "from reddit_data_extractor.flow import reddit_pipeline; reddit_pipeline()"
