@@ -2,14 +2,14 @@ from prefect import flow, task, get_run_logger
 from prefect.tasks import task_input_hash
 from datetime import timedelta
 
+from scraper import extract_reddit_data
+
 import sys
 from pathlib import Path
 # Add python_scripts/ to the path
 CURRENT_DIR = Path(__file__).resolve()
 PYTHON_SCRIPTS_DIR = CURRENT_DIR.parents[1]
 sys.path.append(str(PYTHON_SCRIPTS_DIR))
-
-from extractor_Base import extract_reddit_data
 
 @task(
     name="Extract Reddit Data",
