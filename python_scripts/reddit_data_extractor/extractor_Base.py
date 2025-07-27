@@ -49,9 +49,9 @@ def extract_reddit_data():
 
     # PRAW Setup
     reddit = praw.Reddit(
-        client_id='CpCduCYpVMH7S-X2-LGX7w',
-        client_secret='AU390E7U6kE8PgUBmXJ01Vg0FJmQXg',
-        user_agent='MultiSubredditCarDataExtractor/2.0 by Ibrahim Hegazi'
+        client_id='rRsSEn42kJ-qRpPeAGwAWQ',
+        client_secret='iSAoAUQvfOCkJMZBLkBO7CPCxe8TAA',
+        user_agent='User-Agent: script:MyDataScraperForLLM:3.0 (by /u/Many-Refuse5176)'
     )
 
     # Headers for JSON API
@@ -124,6 +124,7 @@ def extract_reddit_data():
             if not data:
                 break
 
+
             # Process posts
             for post in data['children']:
                 if post_count >= MAX_POSTS_PER_SUBREDDIT:
@@ -143,7 +144,17 @@ def extract_reddit_data():
                     comments = process_comments(submission)
 
                     if comments:  # Only store if has valid comments
-                        post_entry = post_data.copy()  # ✅ <-- This line captures all fields
+                        # post_entry = post_data.copy()  # ✅ <-- This line captures all fields
+                        post_entry = {
+                            'id': post_data['id'],
+                            'title': post_data['title'],
+                            'selftext': post_data['selftext'],
+                            'score': post_data['score'],
+                            'created_utc': post_data['created_utc'],
+                            'num_comments': post_data['num_comments'],
+                            'subreddit': subreddit,
+                            'top_comments': comments
+                        }
                         post_entry['subreddit'] = subreddit
                         post_entry['top_comments'] = comments
 
@@ -158,7 +169,8 @@ def extract_reddit_data():
                     continue
 
             # Pagination control
-            after = data.get('after')
+            # after = data.get('after')
+            after = data['after']  # ✅ Correct
             if not after:
                 print(f"No more posts in r/{subreddit} (got {post_count}/{MAX_POSTS_PER_SUBREDDIT})")
                 break
@@ -217,6 +229,8 @@ def extract_reddit_data():
     execution_time = (time.time() - start_time) / 60
     print(f"\nCompleted in {execution_time:.2f} minutes")
 
+if __name__ == "__main__":
+    extract_reddit_data()
 
 
 

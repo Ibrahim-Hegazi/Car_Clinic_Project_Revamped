@@ -9,13 +9,13 @@ CURRENT_DIR = Path(__file__).resolve()
 PYTHON_SCRIPTS_DIR = CURRENT_DIR.parents[1]
 sys.path.append(str(PYTHON_SCRIPTS_DIR))
 
-from reddit_data_extractor.extractor import extract_reddit_data
+from extractor_Base import extract_reddit_data
 
 @task(
     name="Extract Reddit Data",
     retries=3,
     retry_delay_seconds=60,
-    cache_key_fn=task_input_hash,
+    #cache_key_fn=task_input_hash,
     cache_expiration=timedelta(days=1),
     timeout_seconds=1800  # fail if runs longer than 30 minutes
 )
