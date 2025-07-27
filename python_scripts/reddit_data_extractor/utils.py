@@ -1,7 +1,7 @@
 # This file contains Helpers: fetch_posts, process_comments
 
 import httpx
-from config import headers
+from .config import headers
 from datetime import datetime
 
 def fetch_posts(subreddit, after=None):
