@@ -3,10 +3,11 @@
 import time
 import pandas as pd
 import os
-from config import *
-from reddit_client import get_reddit_client
-from utils import fetch_posts, process_comments
-from writer import save_data
+from .config import *
+from .reddit_client import get_reddit_client
+from .utils import fetch_posts, process_comments
+from .writer import save_data
+
 
 def extract_reddit_data():
     start_time = time.time()
