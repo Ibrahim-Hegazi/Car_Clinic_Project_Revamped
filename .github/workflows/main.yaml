@@ -26,9 +26,15 @@ jobs:
         
     - name: Run Prefect flow
       run: |
-          cd python_scripts  # Move to the directory containing your module
-          python -c "from reddit_data_extractor.flow import reddit_pipeline; reddit_pipeline()"
-        
+        cd python_scripts
+        python run_pipeline.py 2>&1 | tee ../pipeline_output.log
+
+    - name: Upload logs
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: pipeline-logs
+        path: pipeline_output.log
     - name: Upload data artifacts
       if: always()  # Run even if previous steps fail
       uses: actions/upload-artifact@v4 

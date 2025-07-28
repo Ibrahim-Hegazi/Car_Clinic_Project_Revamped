@@ -1,12 +1,25 @@
 # scraper.py — Main logic (loops, counters)
 
 import time
+import logging
 import pandas as pd
 import os
 from .config import *
 from .reddit_client import get_reddit_client
 from .utils import fetch_posts_with_praw, process_comments
 from .writer import save_data
+from prefect import get_run_logger
+
+# Setup module-level logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+# Optional: configure a basic console handler if running standalone
+if not logger.handlers:
+    console_handler = logging.StreamHandler()
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    console_handler.setFormatter(formatter)
+    logger.addHandler(console_handler)
 
 def extract_reddit_data():
     start_time = time.time()
@@ -23,7 +36,8 @@ def extract_reddit_data():
     all_posts = []
 
     for subreddit in SUBREDDITS:
-        print(f"\n=== Starting r/{subreddit} ===")
+        # print(f"\n=== Starting r/{subreddit} ===")
+        logger.info(f"=== Starting r/{subreddit} ===")
         post_count = 0
 
         posts = fetch_posts_with_praw(reddit, subreddit, limit=MAX_POSTS_PER_SUBREDDIT)
@@ -61,18 +75,23 @@ def extract_reddit_data():
                     counters['valid_posts_stored'] += 1
 
                     if post_count % 10 == 0:
-                        print(f"Collected {post_count} posts from r/{subreddit}")
+                        # print(f"Collected {post_count} posts from r/{subreddit}")
+                        logger.info(f"Collected {post_count} posts from r/{subreddit} ===")
 
             except Exception as e:
-                print(f"Error processing post {submission.id}: {e}")
+                # print(f"Error processing post {submission.id}: {e}")
+                logger.info(f"Error processing post {submission.id}: {e} ===")
                 continue
 
             time.sleep(3)
 
     save_data(all_posts, counters, CSV_FILE)
 
-    print("\n=== Debugging Counters ===")
+    # print("\n=== Debugging Counters ===")
+    logger.info("\n=== Debugging Counters ===")
     for key, value in counters.items():
-        print(f"{key}: {value}")
+        # print(f"{key}: {value}")
+        logger.info(f"{key}: {value}")
 
-    print(f"\nCompleted in {(time.time() - start_time) / 60:.2f} minutes")
+    # print(f"\nCompleted in {(time.time() - start_time) / 60:.2f} minutes")
+    logger.info(f"\nCompleted in {(time.time() - start_time) / 60:.2f} minutes")
