@@ -4,7 +4,7 @@ from prefect import flow, task, get_run_logger
 from prefect.tasks import task_input_hash
 from datetime import timedelta
 import logging
-from scraper import extract_reddit_data
+from .scraper import extract_reddit_data
 # from extractor import extract_reddit_data
 
 

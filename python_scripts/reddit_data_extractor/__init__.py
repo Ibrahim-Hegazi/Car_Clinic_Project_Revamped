@@ -12,6 +12,17 @@ This package contains:
 
 from .scraper import extract_reddit_data
 from .flow import reddit_pipeline
+from . import config, reddit_client, utils, writer, scraper, flow
 
 __version__ = "1.0.0"
-__all__ = ['extract_reddit_data', 'reddit_pipeline']
+
+__all__ = [
+    "extract_reddit_data",
+    "reddit_pipeline",
+    "config",
+    "reddit_client",
+    "utils",
+    "writer",
+    "scraper",
+    "flow"
+]

@@ -1,7 +1,7 @@
 # This file contains Helpers: fetch_posts, process_comments
 
 import praw
-from config import headers
+from .config import headers
 from datetime import datetime
 
 # We will remove this function cause github workflow needs an authenticated coummunication
