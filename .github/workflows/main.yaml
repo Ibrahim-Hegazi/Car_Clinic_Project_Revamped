@@ -33,7 +33,7 @@ jobs:
         
     - name: Run Prefect flow
       run: |
-        python run_pipeline.py 2>&1 | tee ../pipeline_output.log
+        python run_pipeline.py 2>&1 | tee pipeline_output.log
 
     - name: Upload logs
       if: always()
