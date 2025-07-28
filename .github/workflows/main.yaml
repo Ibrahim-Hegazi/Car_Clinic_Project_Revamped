@@ -23,11 +23,17 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+
+    - name: Debug: List files
+      run: |
+        echo "Root directory contents:"
+        ls -la
+        echo "python_scripts contents:"
+        ls -la python_scripts
         
     - name: Run Prefect flow
       run: |
-        cd python_scripts
-        python run_pipeline.py 2>&1 | tee ../pipeline_output.log
+        python run_pipeline.py 2>&1 | tee pipeline_output.log
 
     - name: Upload logs
       if: always()
@@ -35,6 +41,7 @@ jobs:
       with:
         name: pipeline-logs
         path: pipeline_output.log
+        
     - name: Upload data artifacts
       if: always()  # Run even if previous steps fail
       uses: actions/upload-artifact@v4 
