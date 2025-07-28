@@ -4,10 +4,10 @@ import time
 import logging
 import pandas as pd
 import os
-from .config import *
-from .reddit_client import get_reddit_client
-from .utils import fetch_posts_with_praw, process_comments
-from .writer import save_data
+from config import *
+from reddit_client import get_reddit_client
+from utils import fetch_posts_with_praw, process_comments
+from writer import save_data
 from prefect import get_run_logger
 
 # Setup module-level logger
@@ -75,7 +75,7 @@ def extract_reddit_data():
                     counters['valid_posts_stored'] += 1
 
                     if post_count % 10 == 0:
-                        # print(f"Collected {post_count} posts from r/{subreddit}")
+                        print(f"Collected {post_count} posts from r/{subreddit}")
                         logger.info(f"Collected {post_count} posts from r/{subreddit} ===")
 
             except Exception as e:
