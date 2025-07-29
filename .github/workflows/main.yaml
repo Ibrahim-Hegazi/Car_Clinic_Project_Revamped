@@ -42,12 +42,21 @@ jobs:
         name: pipeline-logs
         path: pipeline_output.log
 
-    - name: Upload data artifacts
+    - name: Prepare latest raw CSV for upload
+      if: always()
+      run: |
+        LATEST_FILE=$(ls -t data/raw/*.csv | head -n 1)
+        echo "Latest file: $LATEST_FILE"
+        mkdir -p temp_upload
+        cp "$LATEST_FILE" temp_upload/
+      shell: bash
+
+    - name: Upload latest raw CSV only
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: reddit-data
-        path: data/
+        name: reddit-latest-raw
+        path: temp_upload/
         retention-days: 7
 
     - name: Commit and Push New Raw Data
@@ -69,4 +78,3 @@ jobs:
         GIT_AUTHOR_EMAIL: github-actions@github.com
         GIT_COMMITTER_NAME: github-actions
         GIT_COMMITTER_EMAIL: github-actions@github.com
-    
