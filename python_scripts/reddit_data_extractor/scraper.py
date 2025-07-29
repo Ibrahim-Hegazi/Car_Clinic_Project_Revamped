@@ -83,7 +83,7 @@ def extract_reddit_data():
                 logger.info(f"Error processing post {submission.id}: {e} ===")
                 continue
 
-            time.sleep(2)
+            time.sleep(1)
 
     save_data(all_posts, counters, CSV_FILE)
 
