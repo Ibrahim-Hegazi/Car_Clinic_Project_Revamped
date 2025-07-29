@@ -24,4 +24,9 @@ END_TIMESTAMP = int(yesterday.replace(hour=23, minute=59, second=59).timestamp()
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
-CSV_FILE = DATA_DIR / f"Reddit_CarAdvice_{datetime.utcnow().strftime('%Y-%m-%d')}.csv"
+# CSV_FILE = DATA_DIR / f"Reddit_CarAdvice_{datetime.utcnow().strftime('%Y-%m-%d')}.csv" # outdated subdirectory
+
+RAW_DATA_DIR = DATA_DIR / "raw"
+RAW_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+CSV_FILE = RAW_DATA_DIR / f"Reddit_CarAdvice_{datetime.utcnow().strftime('%Y-%m-%d')}.csv"

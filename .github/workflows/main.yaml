@@ -49,3 +49,24 @@ jobs:
         name: reddit-data
         path: data/
         retention-days: 7
+
+    - name: Commit and Push New Raw Data
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+        git pull origin ${{ github.ref_name }}
+        git add data/raw/
+
+        if git diff --cached --quiet; then
+          echo "No changes in data/raw/ to commit."
+        else
+          git commit -m "🔄 Add new raw Reddit data [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push origin ${{ github.ref_name }}
+        fi
+      env:
+        GIT_AUTHOR_NAME: github-actions
+        GIT_AUTHOR_EMAIL: github-actions@github.com
+        GIT_COMMITTER_NAME: github-actions
+        GIT_COMMITTER_EMAIL: github-actions@github.com
+    
