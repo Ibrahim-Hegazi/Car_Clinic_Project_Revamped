@@ -4,19 +4,6 @@ import praw
 from .config import headers
 from datetime import datetime
 
-# We will remove this function cause github workflow needs an authenticated coummunication
-# def fetch_posts(subreddit, after=None):
-#     try:
-#         response = httpx.get(
-#             f'https://www.reddit.com/r/{subreddit}/new.json',
-#             headers=headers,
-#             params={'limit': 100, 'after': after, 't': 'week'}
-#         )
-#         response.raise_for_status()
-#         return response.json()['data']
-#     except Exception as e:
-#         print(f"Error fetching posts from r/{subreddit}: {e}")
-#         return None
 
 def fetch_posts_with_praw(reddit, subreddit_name, limit=100):
     try:
