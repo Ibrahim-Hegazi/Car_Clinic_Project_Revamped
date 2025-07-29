@@ -60,9 +60,15 @@ jobs:
         retention-days: 7
 
     - name: Commit and Push New Raw Data
+      env:
+        GIT_AUTHOR_NAME: github-actions[bot]
+        GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+        GIT_COMMITTER_NAME: github-actions[bot]
+        GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
+        GH_PAT: ${{ secrets.GH_PAT }}
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "$GIT_AUTHOR_NAME"
+        git config --global user.email "$GIT_AUTHOR_EMAIL"
 
         git pull origin ${{ github.ref_name }}
         git add data/raw/
@@ -71,10 +77,5 @@ jobs:
           echo "No changes in data/raw/ to commit."
         else
           git commit -m "🔄 Add new raw Reddit data [$(date +'%Y-%m-%d %H:%M:%S')]"
-          git push origin ${{ github.ref_name }}
+          git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
         fi
-      env:
-        GIT_AUTHOR_NAME: github-actions
-        GIT_AUTHOR_EMAIL: github-actions@github.com
-        GIT_COMMITTER_NAME: github-actions
-        GIT_COMMITTER_EMAIL: github-actions@github.com
