@@ -2,7 +2,7 @@ name: Reddit Data Pipeline
 
 on:
   schedule:
-    - cron: '16 21 * * *'
+    - cron: '17 21 * * *'
   workflow_dispatch:
 
 jobs:
