@@ -1,11 +1,13 @@
 name: Reddit Data Pipeline
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '40 9 * * *'
   workflow_dispatch:
-  permissions:
-    contents: write
+
 
 
 jobs:
