@@ -22,7 +22,7 @@ sys.path.append(str(PYTHON_SCRIPTS_DIR))
     retry_delay_seconds=60,
     #cache_key_fn=task_input_hash,
     cache_expiration=timedelta(days=1),
-    timeout_seconds=1800  # fail if runs longer than 30 minutes
+    timeout_seconds=3600  # fail if runs longer than 30 minutes
 )
 def extract_task():
     logger = get_run_logger()
