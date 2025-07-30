@@ -12,6 +12,7 @@ on:
 
 jobs:
   run-pipeline:
+    name: Run Reddit Scraper
     runs-on: ubuntu-latest
 
     steps:
