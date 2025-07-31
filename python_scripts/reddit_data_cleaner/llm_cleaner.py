@@ -42,69 +42,128 @@ SYSTEM_PROMPT = """### SYSTEM TASK ###
         """
 
 # === Step 4: Scan for New Files ===
+# === Step 4: Find Raw Files to Clean === #
 print("🔎 Scanning for raw files that haven't been cleaned...")
-raw_dirs = [p for p in RAW_DATA_DIR.iterdir() if p.is_dir()]
-queued_files = []
 
-for raw_dir in raw_dirs:
-    date_str = raw_dir.name
-    raw_file = raw_dir / "raw_reddit_data.csv"
-    cleaned_file = CLEANED_DATA_DIR / date_str / "cleaned_reddit_data.csv"
-    if not cleaned_file.exists() and raw_file.exists():
-        queued_files.append((date_str, raw_file, cleaned_file))
-    if not queued_files:
-        print("✅ All available raw data already cleaned. No work needed.")
-        exit()
+queued_files = []
+raw_files = list(RAW_DATA_DIR.glob("Reddit_CarAdvice_*.csv"))
+
+for raw_file in raw_files:
+    date_str = raw_file.stem.replace("Reddit_CarAdvice_", "")
+    cleaned_file = CLEANED_DATA_DIR / f"Reddit_CarAdvice_Cleaned_{date_str}.csv"
+    if not cleaned_file.exists():
+        queued_files.append((raw_file, cleaned_file))
+    else:
+        print(f"⏭️ Skipping {raw_file.name} → Already cleaned.")
+
+if not queued_files:
+    print("🎉 All unprocessed files cleaned and saved successfully.")
+    exit(0)
+
+print(f"📝 Files to process: {[f[0].name for f in queued_files]}")
+print(f"📁 Target cleaned outputs: {[f[1].name for f in queued_files]}")
 
 
 
 # === Step 5: Process Each Raw File ===
-for date_str, raw_file, cleaned_file in queued_files:
-    print(f"⚙️ Processing: {raw_file}")
-    # Create cleaned output directory if needed
-    cleaned_file.parent.mkdir(parents=True, exist_ok=True)
-
-    # Load raw data
+for raw_file, cleaned_file in queued_files:
+    print(f"\n🔧 Processing: {raw_file.name}")
     df = pd.read_csv(raw_file)
+
     results = []
+    skipped_count = 0
 
-    for _, row in df.iterrows():
-        title = str(row.get("title", ""))
-        body = str(row.get("selftext", ""))
-        comment = str(row.get("top_comment", ""))
+    for idx, row in df.iterrows():
+        title = row.get("title", "")
+        selftext = row.get("selftext", "")
+        comment = row.get("top_comment", "")
 
-        # Skip empty data
-        if not (title or body or comment):
+        # Skip empty posts
+        if not title.strip() and not selftext.strip():
+            skipped_count += 1
             continue
 
         prompt = f"""{SYSTEM_PROMPT}
-            REDDIT POST
-            TITLE: {title}
-            BODY: {body}
-            TOP_COMMENT: {comment}
-    
-            RESPONSE
-            """
+
+### POST TITLE ###
+{title}
+
+### POST BODY ###
+{selftext}
+
+### TOP COMMENT ###
+{comment}
+
+### JSON OUTPUT ###
+"""
+
+        response = llm(prompt, stop=["</s>"], max_tokens=512)
+        response_text = response["choices"][0]["text"].strip()
+
         try:
-            response = llm(prompt=prompt, max_tokens=512, stop=["###"])
-            raw_output = response["choices"][0]["text"].strip()
-
-            # Try parsing the output
-            parsed = json.loads(raw_output)
-            parsed["raw_output"] = raw_output
+            parsed = json.loads(response_text)
+            if parsed.get("is_valid"):
+                results.append(parsed)
         except Exception as e:
-            parsed = {
-                "is_valid": False,
-                "problem": None,
-                "solution": None,
-                "raw_output": f"ERROR: {str(e)}"
-            }
-
-        results.append(parsed)
+            print(f"⚠️ Error parsing response at row {idx}: {e}")
+            skipped_count += 1
 
     # Convert to DataFrame and Save
     cleaned_df = pd.DataFrame(results)
     cleaned_df.to_csv(cleaned_file, index=False)
     print(f"✅ Cleaned data saved: {cleaned_file}")
+    print(f"📊 Stats for {raw_file.name}:")
+    print(f"    Total rows: {len(df)}")
+    print(f"    Cleaned entries: {len(results)}")
+    print(f"    Skipped: {skipped_count}")
+
+
+# for date_str, raw_file, cleaned_file in queued_files:
+#     print(f"⚙️ Processing: {raw_file}")
+#     # Create cleaned output directory if needed
+#     cleaned_file.parent.mkdir(parents=True, exist_ok=True)
+#
+#     # Load raw data
+#     df = pd.read_csv(raw_file).head(10)
+#     results = []
+#
+#     for _, row in df.iterrows():
+#         title = str(row.get("title", ""))
+#         body = str(row.get("selftext", ""))
+#         comment = str(row.get("top_comment", ""))
+#
+#         # Skip empty data
+#         if not (title or body or comment):
+#             continue
+#
+#         prompt = f"""{SYSTEM_PROMPT}
+#             REDDIT POST
+#             TITLE: {title}
+#             BODY: {body}
+#             TOP_COMMENT: {comment}
+#
+#             RESPONSE
+#             """
+#         try:
+#             response = llm(prompt=prompt, max_tokens=512, stop=["###"])
+#             raw_output = response["choices"][0]["text"].strip()
+#
+#             # Try parsing the output
+#             parsed = json.loads(raw_output)
+#             parsed["raw_output"] = raw_output
+#         except Exception as e:
+#             parsed = {
+#                 "is_valid": False,
+#                 "problem": None,
+#                 "solution": None,
+#                 "raw_output": f"ERROR: {str(e)}"
+#             }
+#
+#         results.append(parsed)
+#
+#     # Convert to DataFrame and Save
+#     cleaned_df = pd.DataFrame(results)
+#     cleaned_df.to_csv(cleaned_file, index=False)
+#     print(f"✅ Cleaned data saved: {cleaned_file}")
 
 print("🎉 All unprocessed files cleaned and saved successfully.")
