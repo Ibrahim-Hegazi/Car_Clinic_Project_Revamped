@@ -3,3 +3,6 @@ praw
 pandas
 prefect
 python-dotenv
+transformers
+pandas
+torch
