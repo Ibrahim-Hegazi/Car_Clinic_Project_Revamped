@@ -9,8 +9,8 @@ SUBREDDITS = [
     'StupidCarQuestions', 'CarHacking', 'AskMechanics', 'AutoMechanics', 'CartalkUK'
 ]
 
-POST_LIMIT_PER_PAGE = 100
-MAX_POSTS_PER_SUBREDDIT = 500
+POST_LIMIT_PER_PAGE = 50
+MAX_POSTS_PER_SUBREDDIT = 50
 
 headers = {
     'User-Agent': 'MyRedditScraper/2.0 (by /u/YOUR_USERNAME)'
