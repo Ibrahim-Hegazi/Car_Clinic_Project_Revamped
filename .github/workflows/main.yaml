@@ -155,3 +155,4 @@ jobs:
           else
             git commit -m "✅ Cleaned Reddit data with Ollama [$(date +'%Y-%m-%d %H:%M:%S')]"
             git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
+          fi
