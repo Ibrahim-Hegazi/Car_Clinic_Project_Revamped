@@ -3,10 +3,12 @@
 import pandas as pd
 import json
 import subprocess
+import time
 from datetime import datetime
 from pathlib import Path
 
 def run_llm_cleaning_logic(logger=None):
+
     if logger is None:
         import logging
         logging.basicConfig(level=logging.INFO)
@@ -16,6 +18,14 @@ def run_llm_cleaning_logic(logger=None):
     RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
     CLEANED_DATA_DIR = PROJECT_ROOT / "data" / "cleaned"
     CLEANED_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    if not RAW_DATA_DIR.exists():
+        logger.error(f"❌ RAW data directory not found: {RAW_DATA_DIR}")
+        return
+    if not CLEANED_DATA_DIR.exists():
+        logger.warning(f"📂 Creating missing cleaned data directory: {CLEANED_DATA_DIR}")
+        CLEANED_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
     SYSTEM_PROMPT = """### SYSTEM TASK ###
             You are an automotive expert assistant helping extract structured knowledge from car repair discussions for a mechanic-assist chatbot and emergency troubleshooting system.
 
@@ -43,6 +53,8 @@ def run_llm_cleaning_logic(logger=None):
             ```
             """
 
+
+
     today_str = datetime.now().strftime("%Y-%m-%d")
     raw_file = RAW_DATA_DIR / f"Reddit_CarAdvice_{today_str}.csv"
     cleaned_file = CLEANED_DATA_DIR / f"Reddit_CarAdvice_Cleaned_{today_str}.csv"
@@ -57,10 +69,14 @@ def run_llm_cleaning_logic(logger=None):
         logger.info("✅ Already cleaned today’s file.")
         return
 
+    logger.info(f"📥 Reading raw CSV: {raw_file}")
     df = pd.read_csv(raw_file)
+    logger.info(f"✅ Loaded {len(df)} rows from raw data.")
     results = []
     skipped_count = 0
     failure_log = []
+
+    start_time = time.time()
 
     for idx, row in df.iterrows():
         title = row.get("title", "")
@@ -106,14 +122,24 @@ def run_llm_cleaning_logic(logger=None):
             logger.error(f"⚠️ JSON parsing failed at row {idx}: {e}")
             failure_log.append({"row": idx, "error": "JSONDecodeError", "text": response_text})
             skipped_count += 1
+        except subprocess.SubprocessError as e:
+            logger.error(f"❌ Subprocess failed at row {idx}: {e}")
+            failure_log.append({"row": idx, "error": "SubprocessError", "details": str(e)})
+            skipped_count += 1
+            continue
         except Exception as e:
-            logger.error(f"❌ Error running ollama at row {idx}: {e}")
+            logger.error(f"❌ Unexpected error at row {idx}: {e}")
             failure_log.append({"row": idx, "error": str(e), "prompt": prompt})
             skipped_count += 1
 
+
     cleaned_df = pd.DataFrame(results)
-    cleaned_df.to_csv(cleaned_file, index=False)
-    logger.info(f"✅ Cleaned data saved: {cleaned_file}")
+    try:
+        cleaned_df.to_csv(cleaned_file, index=False)
+        logger.info(f"✅ Cleaned data saved successfully: {cleaned_file}")
+    except Exception as e:
+        logger.error(f"❌ Failed to save cleaned data: {e}")
+        return
 
     logger.info("📊 Stats:")
     logger.info(f" Total rows: {len(df)}")
@@ -125,5 +151,8 @@ def run_llm_cleaning_logic(logger=None):
         with open(error_path, "w") as f:
             json.dump(failure_log, f, indent=2)
         logger.warning(f"🛠️ Error log saved to: {error_path}")
+
+    elapsed = time.time() - start_time
+    logger.info(f"🕒 Total cleaning time: {elapsed:.2f} seconds")
 
     logger.info("🎉 Cleaning completed.")

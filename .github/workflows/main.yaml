@@ -122,6 +122,7 @@ jobs:
 
       - name: Run Reddit Data Cleaner Flow
         run: |
+          echo "📦 Running Reddit Cleaner..."
           python python_scripts/reddit_data_cleaner/flow.py 2>&1 | tee cleaning_output.log
 
       - name: Upload Cleaned Logs
@@ -141,17 +142,21 @@ jobs:
         run: |
           git config --global user.name "$GIT_AUTHOR_NAME"
           git config --global user.email "$GIT_AUTHOR_EMAIL"
-
           git pull origin ${{ github.ref_name }}
-
-          if [ -d "data/cleaned" ] && [ -n "$(ls -A data/cleaned)" ]; then
-            git add data/cleaned/*
+          
+          echo "🔍 Checking contents of cleaned directory..."
+          ls -lh data/cleaned || echo "❌ No cleaned directory found"
+          
+          CLEANED_FILE="data/cleaned/Reddit_CarAdvice_Cleaned_$(date +'%Y-%m-%d').csv"
+          if [ -f "$CLEANED_FILE" ]; then
+            echo "✅ Found cleaned file: $CLEANED_FILE"
+            git add "$CLEANED_FILE"
           else
-            echo "No cleaned files to add."
+            echo "⚠️ Cleaned file not found: $CLEANED_FILE"
           fi
-
+          
           if git diff --cached --quiet; then
-            echo "No new cleaned data to commit."
+            echo "🚫 No new cleaned data to commit."
           else
             git commit -m "✅ Cleaned Reddit data with Ollama [$(date +'%Y-%m-%d %H:%M:%S')]"
             git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
