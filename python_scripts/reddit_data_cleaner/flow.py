@@ -15,13 +15,14 @@ sys.path.append(str(PYTHON_SCRIPTS_DIR))
 # Now we can safely import cleaner logic
 from cleaner import run_llm_cleaning_logic
 
+
 @task(
     name="Run LLM Cleaning Logic",
     retries=2,
     retry_delay_seconds=30,
     # cache_key_fn=task_input_hash,
     cache_expiration=timedelta(days=1),
-    timeout_seconds=1800
+    timeout_seconds=14400 # 4 hours
 )
 def llm_cleaning_task():
     logger = get_run_logger()

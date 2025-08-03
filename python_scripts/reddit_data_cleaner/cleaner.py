@@ -2,11 +2,11 @@
 
 import pandas as pd
 import json
-import subprocess
 import time
 from datetime import datetime
 from pathlib import Path
 from ollama import Client
+import logging
 
 client = Client(host='http://localhost:11434')  # Persistent Ollama server
 
@@ -14,14 +14,12 @@ client = Client(host='http://localhost:11434')  # Persistent Ollama server
 def run_llm_cleaning_logic(logger=None):
 
     if logger is None:
-        import logging
         logging.basicConfig(level=logging.INFO)
         logger = logging.getLogger("LLM Cleaner")
 
     PROJECT_ROOT = Path(__file__).resolve().parents[2]
     RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
     CLEANED_DATA_DIR = PROJECT_ROOT / "data" / "cleaned"
-    CLEANED_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     if not RAW_DATA_DIR.exists():
         logger.error(f"❌ RAW data directory not found: {RAW_DATA_DIR}")
@@ -107,18 +105,11 @@ def run_llm_cleaning_logic(logger=None):
         logger.debug(f"🔁 Cleaning row {idx} - sending prompt to Ollama.")
 
         try:
-            # response = subprocess.run(
-            #     ["ollama", "run", "mistral"],
-            #     input=prompt.encode(),
-            #     stdout=subprocess.PIPE,
-            #     stderr=subprocess.PIPE,
-            #     timeout=60
-            # )
             response = client.chat(
                 model="mistral",
                 messages=[{"role": "user", "content": prompt}]
             )
-            response_text = response.stdout.decode("utf-8").strip()
+            response_text = response['message']['content'].strip()
             parsed = json.loads(response_text)
 
             if parsed.get("is_valid"):
@@ -130,11 +121,6 @@ def run_llm_cleaning_logic(logger=None):
             logger.error(f"⚠️ JSON parsing failed at row {idx}: {e}")
             failure_log.append({"row": idx, "error": "JSONDecodeError", "text": response_text})
             skipped_count += 1
-        except subprocess.SubprocessError as e:
-            logger.error(f"❌ Subprocess failed at row {idx}: {e}")
-            failure_log.append({"row": idx, "error": "SubprocessError", "details": str(e)})
-            skipped_count += 1
-            continue
         except Exception as e:
             logger.error(f"❌ Unexpected error at row {idx}: {e}")
             failure_log.append({"row": idx, "error": str(e), "prompt": prompt})
