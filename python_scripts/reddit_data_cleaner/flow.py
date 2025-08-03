@@ -13,7 +13,7 @@ PYTHON_SCRIPTS_DIR = CURRENT_DIR.parents[1]
 sys.path.append(str(PYTHON_SCRIPTS_DIR))
 
 # Now we can safely import cleaner logic
-from .cleaner import run_llm_cleaning_logic
+from cleaner import run_llm_cleaning_logic
 
 @task(
     name="Run LLM Cleaning Logic",
