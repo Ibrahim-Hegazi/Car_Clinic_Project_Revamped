@@ -85,6 +85,7 @@ jobs:
           git commit -m "🔄 Add new raw Reddit data [$(date +'%Y-%m-%d %H:%M:%S')]"
           git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
         fi
+  
   run-cleaner:
     name: Run LLM Cleaner (Ollama)
     runs-on: ubuntu-latest
@@ -107,17 +108,21 @@ jobs:
       - name: Install Ollama
         run: |
           curl -fsSL https://ollama.com/install.sh | sh
-          sudo systemctl disable --now ollama || true  # avoid systemd issues
+          sudo systemctl disable --now ollama || true
           ollama serve > /tmp/ollama.log 2>&1 &
-          sleep 10  # give the server time to start
+          sleep 10
 
       - name: Pull Mistral model
         run: |
           ollama pull mistral
 
+      - name: Ensure cleaned directory exists
+        run: |
+          mkdir -p data/cleaned
+
       - name: Run Reddit Data Cleaner Flow
         run: |
-          python reddit_data_cleaner/flow.py 2>&1 | tee cleaning_output.log
+          python python_scripts/reddit_data_cleaner/flow.py 2>&1 | tee cleaning_output.log
 
       - name: Upload Cleaned Logs
         if: always()
@@ -136,10 +141,15 @@ jobs:
         run: |
           git config --global user.name "$GIT_AUTHOR_NAME"
           git config --global user.email "$GIT_AUTHOR_EMAIL"
-          
+
           git pull origin ${{ github.ref_name }}
-          git add data/cleaned/
-          
+
+          if [ -d "data/cleaned" ] && [ -n "$(ls -A data/cleaned)" ]; then
+            git add data/cleaned/*
+          else
+            echo "No cleaned files to add."
+          fi
+
           if git diff --cached --quiet; then
             echo "No new cleaned data to commit."
           else
