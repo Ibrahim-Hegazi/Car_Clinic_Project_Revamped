@@ -1,6 +1,6 @@
 # reddit_data_cleaner/flow.py
 from prefect import flow, get_run_logger
-from reddit_data_cleaner.cleaner import run_llm_cleaning_logic  # Absolute import
+from .cleaner import run_llm_cleaning_logic  # Absolute import
 
 @flow(name="Reddit LLM Cleaning Flow")
 def reddit_llm_flow():
