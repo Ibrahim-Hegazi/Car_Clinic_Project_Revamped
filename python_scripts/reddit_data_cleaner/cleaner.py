@@ -6,6 +6,10 @@ import subprocess
 import time
 from datetime import datetime
 from pathlib import Path
+from ollama import Client
+
+client = Client(host='http://localhost:11434')  # Persistent Ollama server
+
 
 def run_llm_cleaning_logic(logger=None):
 
@@ -103,12 +107,16 @@ def run_llm_cleaning_logic(logger=None):
         logger.debug(f"🔁 Cleaning row {idx} - sending prompt to Ollama.")
 
         try:
-            response = subprocess.run(
-                ["ollama", "run", "mistral"],
-                input=prompt.encode(),
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
-                timeout=60
+            # response = subprocess.run(
+            #     ["ollama", "run", "mistral"],
+            #     input=prompt.encode(),
+            #     stdout=subprocess.PIPE,
+            #     stderr=subprocess.PIPE,
+            #     timeout=60
+            # )
+            response = client.chat(
+                model="mistral",
+                messages=[{"role": "user", "content": prompt}]
             )
             response_text = response.stdout.decode("utf-8").strip()
             parsed = json.loads(response_text)
