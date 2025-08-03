@@ -31,7 +31,7 @@ SYSTEM_PROMPT = """### SYSTEM TASK ###
         ---
         
         ### INSTRUCTIONS ###
-        1. Carefully read the post title, self-text, and top comment.
+        1. Carefully read the post title, self-text, and top comment (The top comments include 1 to 3 comments,where each comment start from starts with the comments user then the score; for example, FriendlySociety3831 (Score: 3): ).
         2. Determine if the post includes a **specific, actionable car problem**.
         3. Determine if the comment provides a **mechanically sound, complete solution**.
         4. If either of these is missing, return:  
@@ -39,7 +39,11 @@ SYSTEM_PROMPT = """### SYSTEM TASK ###
         {"is_valid": false, "problem": null, "solution": null}
         If both are present, return in the format below:
         {"is_valid": true, "problem": "...", "solution": "..."}
+        5. If is_valid is true, then add suggested general extra help in another row:
+        {"is_valid": true, "problem": "...", "solution": "..." , "Extra General Help": "..."}
         """
+
+
 
 # === Step 4: Scan for New Files ===
 # === Step 4: Find Raw Files to Clean === #
@@ -85,17 +89,20 @@ for raw_file, cleaned_file in queued_files:
 
         prompt = f"""{SYSTEM_PROMPT}
 
-### POST TITLE ###
-{title}
+                ### POST TITLE ###
+                {title}
+                
+                ### POST BODY ###
+                {selftext}
+                
+                ### TOP COMMENTS ###
+                {comment}
+                
+                ### JSON OUTPUT ###
+                """
 
-### POST BODY ###
-{selftext}
-
-### TOP COMMENT ###
-{comment}
-
-### JSON OUTPUT ###
-"""
+        # ===== ADD THIS LINE TO PRINT THE PROMPT =====
+        print("=== PROMPT SENT TO LLM ===\n", prompt, "\n" + "=" * 50 + "\n")
 
         response = llm(prompt, stop=["</s>"], max_tokens=512)
         response_text = response["choices"][0]["text"].strip()
