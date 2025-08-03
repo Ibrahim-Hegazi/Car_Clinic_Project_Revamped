@@ -120,9 +120,15 @@ jobs:
         run: |
           mkdir -p data/cleaned
 
+      - name: Check Raw Data Directory Contents
+        run: |
+          echo "📂 Raw data contents:"
+          ls -lh data/raw
+          
       - name: Run Reddit Data Cleaner Flow
         run: |
           echo "📦 Running Reddit Cleaner..."
+          git pull origin ${{ github.ref_name }}
           python python_scripts/reddit_data_cleaner/flow.py 2>&1 | tee cleaning_output.log
 
       - name: Upload Cleaned Logs
