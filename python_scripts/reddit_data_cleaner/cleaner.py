@@ -30,7 +30,7 @@ def format_top_comments_json_style(raw_comment_block: str) -> str:
 
     # Turn into pretty JSON-style string
     import json
-    return "TOP COMMENTS\n" + json.dumps(formatted, indent=2)
+    return "\n" + json.dumps(formatted, indent=2)
 
 
 def run_llm_cleaning_logic(logger=None):
@@ -75,6 +75,9 @@ def run_llm_cleaning_logic(logger=None):
             ```json
             {"is_valid": true, "problem": "...", "solution": "...", "Extra General Help": "..."}
             ```
+            7. Output only one single valid JSON object following the rules above.
+            Do NOT include any explanation or extra text. Output only JSON.
+
             """
 
 
@@ -124,7 +127,7 @@ def run_llm_cleaning_logic(logger=None):
                 TOP COMMENTS
                 {comment}
                 
-                JSON OUTPUT
+                YOUR RESPONSE (JSON ONLY, NO EXPLANATION)
                 """
         logger.info(f"\n\n🔍 [Row {idx}] Prompt:\n{'=' * 40}\n{prompt}\n{'=' * 40}\n")
         # logger.debug(f"🔁 Cleaning row {idx} - prompt:\n{prompt}")  # Showing the prompt before sending it to the cleaning model
@@ -136,6 +139,7 @@ def run_llm_cleaning_logic(logger=None):
                 messages=[{"role": "user", "content": prompt}]
             )
             response_text = response['message']['content'].strip()
+            logger.info(f"🔁 Raw model response for row {idx}:\n{response_text}")
             parsed = json.loads(response_text)
 
             if parsed.get("is_valid"):
