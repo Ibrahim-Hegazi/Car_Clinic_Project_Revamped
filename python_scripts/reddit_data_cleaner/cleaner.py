@@ -10,6 +10,28 @@ import logging
 
 client = Client(host='http://localhost:11434')  # Persistent Ollama server
 
+def format_top_comments_json_style(raw_comment_block: str) -> str:
+    comments = raw_comment_block.strip().split("\n")
+    formatted = []
+    count = 1
+
+    for comment in comments:
+        if not comment.strip():
+            continue
+
+        # Extract just the actual comment text (after the first colon)
+        try:
+            comment_text = comment.split(":", 1)[2].strip()
+        except IndexError:
+            comment_text = comment.strip()
+
+        formatted.append({f"Comment {count}": comment_text})
+        count += 1
+
+    # Turn into pretty JSON-style string
+    import json
+    return "TOP COMMENTS\n" + json.dumps(formatted, indent=2)
+
 
 def run_llm_cleaning_logic(logger=None):
 
@@ -83,7 +105,10 @@ def run_llm_cleaning_logic(logger=None):
     for idx, row in df.iterrows():
         title = row.get("title", "")
         selftext = row.get("selftext", "")
-        comment = row.get("top_comment", "")
+        # comment = row.get("top_comments", "")
+        raw_comment_block = row.get("top_comments", "")
+        comment = format_top_comments_json_style(raw_comment_block)
+
 
         if not title.strip() and not selftext.strip():
             skipped_count += 1
@@ -101,8 +126,9 @@ def run_llm_cleaning_logic(logger=None):
                 
                 JSON OUTPUT
                 """
-        logger.debug(f"🔁 Cleaning row {idx} - prompt:\n{prompt}")  # Showing the prompt before sending it to the cleaning model
-        logger.debug(f"🔁 Cleaning row {idx} - sending prompt to Ollama.")
+        logger.info(f"\n\n🔍 [Row {idx}] Prompt:\n{'=' * 40}\n{prompt}\n{'=' * 40}\n")
+        # logger.debug(f"🔁 Cleaning row {idx} - prompt:\n{prompt}")  # Showing the prompt before sending it to the cleaning model
+        # logger.debug(f"🔁 Cleaning row {idx} - sending prompt to Ollama.")
 
         try:
             response = client.chat(
