@@ -101,7 +101,7 @@ def run_llm_cleaning_logic(logger=None):
                 
                 JSON OUTPUT
                 """
-
+        logger.debug(f"🔁 Cleaning row {idx} - prompt:\n{prompt}")  # Showing the prompt before sending it to the cleaning model
         logger.debug(f"🔁 Cleaning row {idx} - sending prompt to Ollama.")
 
         try:
