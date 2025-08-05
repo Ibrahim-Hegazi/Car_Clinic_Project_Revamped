@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/jutrera/stanford-car-dataset-by-classes-folder
+
+https://github.com/dimgag/stanford_car_classification/tree/master
