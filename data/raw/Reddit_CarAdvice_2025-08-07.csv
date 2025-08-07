@@ -1,0 +1,558 @@
+id,title,selftext,score,created_utc,num_comments,subreddit,scraping_time_utc,created_datetime_utc,scraping_datetime_utc,top_comments
+1mjkd2p,Engine Noise,There is a knocking noise but it’s not too loud. Is this normal? ,0,1754523252.0,9,CarTalk,1754593103,2025-08-06 23:34:12,2025-08-07 18:58:23,jasonsong86 (Score: 1): Warm or cold engine?
+1mjjy4x,Pretty neat to see the 40ish years of evolution between now and 1987.,,0,1754522170.0,13,CarTalk,1754593103,2025-08-06 23:16:10,2025-08-07 18:58:23,"GrimBitchPaige (Score: 10): Yeah, it's impressive how shit trucks are now
+
+Max_Downforce (Score: 23): That's a regression...
+
+isaacnewtonx40 (Score: 11): Anything looks good next to a cyber truck lol"
+1mjjunc,Shop gave me the wrong tire?,"Just got a tire replaced after a screw puncture. Looks like they gave me a different tire than what I originally had? Can't find any info on if this is just a rename or if it's actually a different tire. Tread looks the same. 
+
+First picture is the new tire second picture is the old.",168,1754521921.0,65,CarTalk,1754593103,2025-08-06 23:12:01,2025-08-07 18:58:23,"EtArcadia (Score: 282): Not the same tire at all. The Cup 2 is track capable street tire. The Cup 2 R is basically a DOT compliant racing tire designed for *DRY CONDITIONS*. These are not the same tire and the shop needs to correct this. Driving on a single CUP 2 R in wet conditions probably isn't safe, especially if it's on the rear axle.
+
+Equana (Score: 128): That new tire is not the same. They installed a very high performance and short wearing tire...the R stands for Race.
+
+baumerman (Score: 38): The cup 2 R is a much stickier more track oriented tire than the sport cup 2."
+1mjjcek,2009 Nissan Maxima engine noise,"I have a 2009 Nissan Maxima with only 78,000 miles on it. The car has been reliable until now. A couple weeks ago the AC in the car stopped working(still blows air just not cold) and now while I was out and about town I turned my car on to drive home and this knocking noise started, kinda sounds like something is off balance but I don't know anything about cars. While I was driving home cruise control came on and the noise stopped but I can't imagine that the issue is gone. 
+
+Do folks here thing it's a death knell for the car? I've heard that an engine knock is basically the death of a car.",1,1754520631.0,3,CarTalk,1754593103,2025-08-06 22:50:31,2025-08-07 18:58:23,jasonsong86 (Score: 1): When was the last time you checked oil level and what’s the oil level on the dipstick? The sound sounds like a rod knock probably from running out of oil.
+1mji3kl,Lamborghini Owners in Toronto — How Do You Manage Driving an Aventador Here (Especially in Winter)?,"Curious to hear from fellow car enthusiasts and especially Lamborghini owners (or exotic car owners in general) based in Toronto or other Canadian cities with real winters.
+
+I’m looking at an Aventador S and wondering what day-to-day ownership looks like in a city like Toronto — where we’ve got:
+	•	Salty roads
+	•	Snow, slush, and black ice
+	•	Narrow downtown streets
+	•	Tons of potholes
+
+Even with winter tires, I’ve heard it’s borderline unmanageable — but I want to hear from actual owners:
+👉 Do you daily drive it at all in winter?
+👉 Do you store it and drive something else?
+👉 Have you made any specific mods for Toronto conditions?
+👉 Do you regret buying one in this climate?",0,1754517627.0,5,CarTalk,1754593103,2025-08-06 22:00:27,2025-08-07 18:58:23,"bmwkid (Score: 1): I live in Edmonton and there’s a guy here with a summer Lamborghini and a winter Lamborghini
+
+Winter one he has the entire car wrapped and he has the suspension raised. 
+
+Basically everyone else here with a super car garages it in the winter or they buy something like a Urus
+
+trix4rix (Score: 1): ... No one should daily drive a Lamborghini.
+
+No one should drive a Lamborghini in snow, yet alone salty snow/slush.
+
+Imaginary_Act_3956 (Score: 0): I'm not Nicki Minaj!
+
+
+I drive a [motherfuckin' Opel Corsa](https://cdn.imagin.studio/?customer=img&make=Opel&modelFamily=Corsa&angle=208), and I don't care about that dogshit Lamborghini!"
+1mjhbbs,"I’m Living Out of My QX4 in Oakland — Car Won’t Start After Theft Attempt, No Key, Immobilizer Locked, I’m super Desperate","I’m Living Out of My QX4 in Oakland — Car Won’t Start After Theft Attempt, No Key, Immobilizer Locked, I’m Desperate
+
+Post:
+Hey y’all,
+I’m in a real f***ed up situation and I’m begging for help from anyone who knows Nissans, immobilizers, or how to bypass this kind of thing.
+
+I live in Oakland, CA, and I’m living out of my 1999 Infiniti QX4. A while back, someone tried to steal my ride, and during the attempt they ripped out the immobilizer antenna ring. That kicked off this whole nightmare. The ignition cylinder also got messed up, and now I’m completely locked out from starting the car.
+
+I have no working key.
+I have no crank.
+No spark.
+No fuel.
+NATS2 is locked up hard.
+And the car is at serious risk of being towed any day now.
+
+Here’s what I’ve done so far:
+	•	Went to Pick-n-Pull and grabbed a matching ECU + immobilizer ring from a donor QX4
+	•	Got the correct 8-pin connector and matching color wires, ready to splice
+	•	I had an Autel KM100X tool and tried to program a new key, but I no longer have access to the tool
+	•	I’ve been chasing wires, trying to trace things back, even considering removing the NATS chip from the ECU
+	•	I have 3 ECUs and immobilizer boxes, but they’re mixed up and I don’t know which pair goes together
+
+I’m not trying to steal anything. This is my vehicle, my shelter, and my home. I just need to get it running long enough to move it to safety before I lose everything I still have.
+
+Please — does anyone know:
+	1.	How to bypass the NATS2 system (even temporarily)?
+	2.	How to match a junkyard ECU + IMMO box without a key?
+	3.	Can I just splice the correct wires to install the antenna ring and trigger unlock mode?
+	4.	Is it possible to program a universal key/transponder chip without the original, now that I have the right ECU + IMMO pair?
+	5.	Any shops in the Bay Area / Oakland that’ll unlock or flash ECUs without charging dealership prices?
+	6.	Is that method of removing the NATS chip from the ECU legit?
+
+I’m out here trying to figure this all out on my own. I’ve got tools, parts, solder, and patience — but I need help from someone who knows how this system works inside and out. I’m down bad. And time’s running out.
+
+Any help, advice, wiring diagrams, or even a direction to look would mean everything right now.
+
+Please and Thank you 
+
+",7,1754515779.0,6,CarTalk,1754593103,2025-08-06 21:29:39,2025-08-07 18:58:23,"trix4rix (Score: 4): I would assume you need to take it to the dealership and prove ownership.
+
+This is how it should work. Whether someone has hacked that system or not is something only someone with more experience than myself could answer.
+
+mtrosclair (Score: 3): Have you considered getting it towed somewhere else? I realize a tow can be pricey, but it might buy you more time so you can resolve this issue with your vehicle. Unfortunately I'm afraid I can't help you with the electronics part, but immobilizer systems in older vehicles can be an absolute nightmare.
+
+Imaginary_Act_3956 (Score: -8): Holy shit.
+
+
+A homeless person living in a 26-year-old Nissan shitbox and it won't start after someone tried to steal it?
+
+
+I once slept in a [rental Citroën C3](https://cdn.imagin.studio/?customer=img&make=Citroën&modelFamily=C3&angle=205) after a Nicki Minaj concert I went to......was attacked by Nicki haters, I came back home after five fucking days because I had anxiety over someone trying to steal my car (thanks god it didn't get stolen)."
+1mjey33,Which headlights do I get??,"Just got this 2006 Lincoln mark It. very clean, really jsut needs some headlights to clean up the look I'm just not sure which ones. I do want to stay cheap so l've been looking on Amazon and eBay and staying away from the name brand like alpharex. I'm stuck between these few options. I've also added some pictures of trucks l've seen with these lights to compare as well as my truck. I just could not find a truck with the reflector style and led running light on the bottom that I found. I'm so indecisive and stuck, what do I get??
+",0,1754510328.0,10,CarTalk,1754593103,2025-08-06 19:58:48,2025-08-07 18:58:23,"eric_gm (Score: 9): Your factory headlights are likely 1000 times better than all those Chinese things, but if you’re set on those, at least get the ones with a projector
+
+You can do a projector retrofit on your original headlights and you would end up with something amazing and your car won’t look like a Temu special.
+
+BTW, you don't do headlights on the cheap just as you don't do cheap brakes. It's how you see at night and trust me those things you are eyeing have ridiculously bad beam patterns.
+
+pancrudo (Score: 1): For output and beam pattern, my vote goes for 2nd pic."
+1mjeu9g,Would you buy it?,"‘04 Ranger XLT FX4 4.0. 115,000 miles. The owner just doesn’t drive it so he’s selling it to me for $500. Been sitting since winter. Needs some mechanical work, but what do y’all think about the rust? Definitely a good bit more than any of my past rigs but doesn’t look like anything is rusted through besides the bed",13,1754510077.0,31,CarTalk,1754593103,2025-08-06 19:54:37,2025-08-07 18:58:23,"Ulrich453 (Score: 25): $500 if it runs is a steal. You couldn’t buy a gocart on Facebook marketplace for that. That being said, the rust doesn’t look great.
+
+Iron-Phoenix2307 (Score: 13): Would I buy it for $500 with the rust and mechanical issues? 
+
+Yes, but I frequently make poor financial decisions.
+
+memuthedog (Score: 6): Was about to come in with a confident no but then I saw $500. Bring a screw driver when you go look at it."
+1mjdzla,"Switched to LEDs - brightness is there, but focus feels off. Anyone else experienced this?","So I recently upgraded my headlight bulbs to LED (H11) expecting a big improvement in night visibility. And yeah, they look super bright from the outside... but honestly, the beam focus feels off when I’m driving. Parts of the road ahead still seem dim or patchy, and it doesn’t feel like the light is really “paving” the road like my old halogens did.
+
+I started reading up on it and came across an interesting write-up explaining that it’s not just about brightness - **beam focus and light distribution** play a huge role too. Apparently, LEDs use “face lighting” instead of the “spot lighting” you get with halogen filaments, which can lead to scattered beams if the lamp isn’t engineered well.
+
+Has anyone here found a specific LED brand or model that actually nails both brightness **and** beam focus? I’m open to recommendations or tips before I swap again.
+
+Would love to hear what’s worked (or not worked) for you!",24,1754508101.0,36,CarTalk,1754593103,2025-08-06 19:21:41,2025-08-07 18:58:23,"HeavyDutyForks (Score: 82): You need to get a headlight housing for your car that is designed for LED bulbs. Otherwise, this is the problem you face along with blinding incoming traffic
+
+ermgrom (Score: 57): It’s almost like the housings weren’t designed for leds
+
+eric_gm (Score: 14): A halogen filament emits light in a 360 degree pattern. A LED chip is directional. That's why you don't put LEDs in reflectors meant for halogens (or xenon). It's physically impossible to emulate a halogen with an LED, all you get are approximations.
+
+You'll never get the same beam pattern and you'll potentially glare oncoming drivers. Don't be that guy.
+
+In general terms, the thinner the LED bulb ""post"" and the smaller the chips (provided they're located exactly where an incandescent filament is), the better the pattern will be, but there will always be issues with light distribution as you can't make the post that holds the chips infinitely thin. The most common is having two dark spots right above and under the directional chips which translates into dark areas/dead spots in your beam pattern.
+
+Remove those LEDs, put the original bulbs back in. Restore your headlights if they're hazy, or do a projector retrofit which is the right way to upgrade your lights.
+
+You can see how these shadows/dead spots look here: [https://i.ebayimg.com/images/g/YcAAAOSwv-5elm63/s-l1200.jpg](https://i.ebayimg.com/images/g/YcAAAOSwv-5elm63/s-l1200.jpg) and here: [https://i.ebayimg.com/images/g/A7EAAOSwYf9bBIQy/s-l400.jpg](https://i.ebayimg.com/images/g/A7EAAOSwYf9bBIQy/s-l400.jpg)"
+1mjdvxm,To total or keep?,"So my second car this year is set to be total. It is a 2015 Subaru Outback. It has 124,000 miles. The insurance company will give me around $13,000 for it if it is totaled. If I keep it, I will get around $8000. The estimate to fix it was $9,300. I can’t afford a car payment right now. 
+
+With all of that information, what would you do? I need some third party opinions. My uncle manages a car dealership so I am guessing he will say let them total the car and get a new one. I’m just trying to make the best possible decision with a limited time.",1,1754507874.0,6,CarTalk,1754593103,2025-08-06 19:17:54,2025-08-07 18:58:23,"BennyBagoong (Score: 2): $13k should get you a comparable car. I’d say keeping it only makes sense if it’s sentimental. If you do, keep in mind it will also be salvage title.
+
+lunaticmagnet (Score: 1): what is the damage?  If it's cosmetic vs mechanical you might be in a better position to just drive it as is and put that 8k away to save for your next car.
+
+eggishconfusion (Score: 1): Go on Autotrader and see what you can get for $13k in your area. Where I live, there’s plenty of sub 100k mileage Japanese cars for sale at that price point."
+1mjk8mu,Having problems with my car,So i own a Toyota mr2 but I’m having problems when i crank the car it keeps going even after i take the keys out I’m fairly new on having a project car and working on it my self ,1,1754522936.0,4,carquestions,1754593103,2025-08-06 23:28:56,2025-08-07 18:58:23,"Positive_Walk_8999 (Score: 1): Ignition switch get a new one
+
+Serious_Lettuce6716 (Score: 1): Starter solenoids shot. Get a new starter."
+1mjbgzn,car has a built in kill switch now,"i'm not sure if this question belongs here or on r/MechanicAdvice but my car recently started doing this thing where it just shuts off if I turn on the back windshield wipers or the wiper fluid. Everything goes off: lights, engine, etc. Got the battery and car both diagnosed as fine, oil changed twice in two months just in case, coils checked out, the works. I have no possible clue what could be wrong with my car and would appreciate some advice. For context, I drive a 2012 jeep patriot with no previous issues that I'm aware of, and I bought the car in 21 or 22. It only started having issues about a month ago.",2,1754502435.0,35,carquestions,1754593103,2025-08-06 17:47:15,2025-08-07 18:58:23,"StopNowThink (Score: 14): Are you suggesting that you changed the oil twice in case the age of your motor oil was causing an electrical symptom?
+
+wowwarr (Score: 9): I was thinking man that sounds weird then I read jeep and was like oh"
+1mj7ymi,Hyundai elantra 2018.,"Car vibrating when it stops on a light (D gear, braked). The Rpm meter doing jumps along with it. Any clues on what the issue might be? ",3,1754494582.0,3,carquestions,1754593103,2025-08-06 15:36:22,2025-08-07 18:58:23,"Educational-Coat-750 (Score: 1): Might be a cylinder misfiring. Could be caused by old/dirty fuel injectors or spark plugs
+
+Infamous_Thought9043 (Score: 1): My Hyundai does the same thing. Terrible engines."
+1miucsp,Best 6-5 speed transmissions for an 500 whp lq4 on a budget,Looking to build an cheap lq4 for my 82 trans am and I need a good transmission preferably a 5 or 6 speed,1,1754451866.0,3,carquestions,1754593103,2025-08-06 03:44:26,2025-08-07 18:58:23,"ApprehensiveAd6603 (Score: 2): T56 if you aren't going crazy with the power. Should be cheap too, they came in everything. I put double the factory horsepower through mine in my 02 Z28 for over a decade and never had a single issue."
+1miqpvp,Is Temu safe ?,,0,1754441376.0,21,carquestions,1754593103,2025-08-06 00:49:36,2025-08-07 18:58:23,"Ordinary_Plate_6425 (Score: 9): You get,  and in this case, you still won't get what you pay for
+
+shoobydoobydoo69 (Score: 7): Of course, nothing but the finest chinesium."
+1miqof6,Is the mechanics shop messing with me?,"In early July, I took my truck in to get inspected. Everything was fine except one sensor has to get changed out and couldn’t grant an inspection sticker. They provided a full report that everything got the seal of approval (including brakes), but I would have to reschedule to get the sensor fixed. No big deal. That sensor replacement happened today, a little less than a month later. In that time, I have driven about 600-800 miles. Today, they were able to do the sensor, but said that the truck now didn’t pass inspection because the brakes were “metal on metal”.
+
+So, my question is, with typical, non-aggressive driving, can brakes go from a normal state to “metal on metal” in 600-800 miles?
+
+",3,1754441258.0,33,carquestions,1754593103,2025-08-06 00:47:38,2025-08-07 18:58:23,"qxu43635 (Score: 3): Can you go to one of your wheels, stick your phone in there, and snap a photo of the brake pad? Then us experts can give you a 2nd opinion. If your brakes were that bad, you would hear the squeaker on at least one of the brake pads.
+
+I got this image from this youtube video thumbnail which I have not watched. [https://www.youtube.com/watch?v=5dO1YeKKmu8](https://www.youtube.com/watch?v=5dO1YeKKmu8)
+
+https://preview.redd.it/4xmrc8pdbchf1.jpeg?width=1607&format=pjpg&auto=webp&s=02d2dedf29248051c064d2f2db9047f091246f83
+
+zrad603 (Score: 1): if your brakes were ""metal on metal"" you'd know it.
+
+what state is this?"
+1mir8su,4 cyl 2.3L muffler/ exhaust,I wanna put a new muffler or cat back system or smthn on my 1999 Honda accord. Not looking for that rice high pitch sound something that has the deep feel to it make it sound decent. Any suggestions?,1,1754442834.0,6,automotive,1754593103,2025-08-06 01:13:54,2025-08-07 18:58:23,"Solid_Enthusiasm550 (Score: 2): Magnaflow has a direct-fit kit for your car. Being that they do mainly v8s and aren't a ""ricer company "", I would think it has a mellow tone. Not the normal chain saw or moped fart sound.
+
+https://www.magnaflow.com/products/106-0096-brexhaust-1998-2002-honda-accord-23l-direct-fit-replacement-exhaust-system
+
+I would watch youtube videos of exhaust installations for your Yr/engine. That way you know that it's available and how it sounds.
+
+Here's a video like that, but fir a civic. These kits would work on you model, but since it's a honda 4cyl. The sound would be similar.  You would just need to see if they make a kit for yours, using that same muffler/resonator combo.
+
+https://youtu.be/nd1VV8CJmiU?si=_N7HKaGNk9rzpV-Y
+
+Worst case scenario is that you buy just their muffler and have it put/welded in by a shop.
+
+FailingComic (Score: 1): Its an Inline 4. It will never have a deep low rumble."
+1mjkqfw,Toyota rav4 2021 do I need this replace,,0,1754524197.0,5,CarHelp,1754593103,2025-08-06 23:49:57,2025-08-07 18:58:23,"DarcSystems (Score: 2): No, but those tires could stand for replacement.
+
+viper77707 (Score: 1): Nope it's just surface rust at this juncture. If it were super pitted and losing a substantial amount of material then it would be necessary.
+
+Dull-Consideration53 (Score: 1): It's fine."
+1mjh0ah,2009 Toyota Camry Trunk gap and roaches in it,"I bought my car as a salvage title where the trunk had to be replaced. I saw a little while after buying the car that there was definitely a noticeable gap in the trunk seam but I didn’t think it’d be too bad. 
+
+GUESS WHAT. 
+
+FOUR big ass roaches scurrying around when I opened my trunk today. 
+
+I saw a roach across my wheel and I think I saw Jesus. Seriously I would’ve crashed if it happened on the road. 
+Please dear god help me fix this",1,1754515072.0,10,CarHelp,1754593103,2025-08-06 21:17:52,2025-08-07 18:58:23,"jasonsong86 (Score: 2): Realign the hinges.
+
+Objective-Board9329 (Score: 1): Buy a 3 pack of bug bombs, leave the windows up for 4-6 hours and you probably won't ever see another roach"
+1mjftzk,Can someone assist with a ford explorer 2008 fuse box diagram? Trying to replace the old fuses.,"This used to be a cop car from what I understand, so I'm not sure if they did something custom or not but I can't seem to find a matching diagram for this car model. Other diagrams also said this model is supposed to have two fuse boxes but it doesn't match either.",0,1754512349.0,4,CarHelp,1754593103,2025-08-06 20:32:29,2025-08-07 18:58:23,Front_Jackfruit1984 (Score: 1): I assume you checked under the dash?
+1mjczcq,I lost this piece a while ago. How can I find a replacement? KIA soul 2016,Its highlighted yellow. Its a little rubber/silicone mat. There's a little hole there that keeps taking little things I put there.,1,1754505836.0,1,CarHelp,1754593103,2025-08-06 18:43:56,2025-08-07 18:58:23,tectuma (Score: 1): Amazon.  They even have kits that have all of them for your car.  Just got mine in last night.  :D  [https://www.amazon.com/dp/B08DTBPNHJ?ref=ppx\_yo2ov\_dt\_b\_fed\_asin\_title&th=1](https://www.amazon.com/dp/B08DTBPNHJ?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+1mjazql,Transmission Oil Change Honda Civic 2014,"I have a Honda Civic 2014 that needs a transmission oil change as indicated by the car. 
+
+It’s still my 2nd year with the car and when I asked my dad who had a close friend that is a mechanic. He says that is not important because his Mustang *around 2005 has not have its transmission oil changed for over 20 years and still runs great.
+
+Obviously having a totally different car and fear of my car breaking down should I change the transmission oil?
+
+*I am not sure if it was changed before I bought the car",1,1754501361.0,2,CarHelp,1754593103,2025-08-06 17:29:21,2025-08-07 18:58:23,"jasonsong86 (Score: 1): Change it because the car says so. A drain and fill should be pretty simple.
+
+UXWlegend (Score: 1): He gave you horrible advice. It's like saying you should never change engine oil. The car will run fine for a few years, but one day, the engine will just just quit. It's the same with transmissions but much longer time frames. 
+
+Changing transmission fluid is the only way to extend the life of the transmission. That 2014 Civic might also have a CVT, which makes it even more important that you change the fluid. 
+
+Go to a good independent shop and request that the change the fluid with the correct Honda transmission fluid."
+1mj5u68,2016 Ford Fusion Hybrid back up camera,I have a Ford Fusion that’s back up camera is having issues. I know very little about cars. It works sometimes so I don’t think the camera is completely broken. I’ve had someone tell me it could be a wiring issue. Is that something that a mechanic can fix and it not cost me a fortune? Is it something I can do myself?,1,1754489718.0,1,CarHelp,1754593103,2025-08-06 14:15:18,2025-08-07 18:58:23,"Successful_Sky_1751 (Score: 1): You can replace it yourself with hand tools. 
+
+Open the trunk
+
+Remove plastic clips holding cloth to trunk lid
+
+Remove plastic handle
+
+Remove tail lights
+
+Remove back up camera bracket 
+
+Reverse process 
+
+
+There also might just be a loose connection on it but once you've taken the trunk apart you can experiment"
+1mj3udh,2014 GMC Terrain,"Car just started throwing up every error on the dash and wigged out. Center display turned off. The speedometer, rpm, gas, and temp gage, all read nothing despite the car being in motion. Car starts up fine but still shows service warnings for everything.  We just got this car a week ago, any ideas?",1,1754484740.0,4,CarHelp,1754593103,2025-08-06 12:52:20,2025-08-07 18:58:23,"aWalkingSaltMine (Score: 1): She was sitting in the parking lot at my job with the car off but the music still playing and then it abruptly cut off on her, she cranked the car and it started showing the issues above.
+
+sho_biz (Score: 1): those cars are notoriously unreliable, especially the electronics, timing elements, & PCV systems. I'm guessing you all have some serious electrical issues, prob a messed up harness and ECU due to mouse or water damage prolly. although TBF, the systems are wonky enough that a messed up ground would throw most GMs for a loop.
+
+need to go to a shop with an expert, like 99.9% of the posts here"
+1mj3bbf,"Honda Civic Hybrid IMA 2008, found this 3-in-1 combo for an aux cable, 30 pin apple charger and usb","Found this connected to my car, seems to be installed aftermarket as I can't see any other car that has it. Would the aux cable accept input? I don't have anything to test it with yet and wanted to check if anyone knows before I buy something to use with it.
+
+I don't know if it's a cable that accepts input or if it's to actually output the sound from the car speakers. I really want to be able to use the aux to add a Bluetooth connector to it.
+
+Thank you in advance for your help.",0,1754483304.0,4,CarHelp,1754593103,2025-08-06 12:28:24,2025-08-07 18:58:23,"Youbetterwatchyoself (Score: 1): Why would it need to output sound, yea both the 30 pin and aux are inputs
+
+Remnant_Echo (Score: 1): Won't know until you test it. Might not even be attached to anything so us Reddit folk can't really assist. The 3rd plug is a female USB-A plug, should be able to attach a charger to it and see if it does anything.
+
+Most I can say is order an aux to *insert phone charger input here* and test it. If you have Amazon Prime can get a simple one for like $5 that you can return for free if it doesn't work."
+1mivb17,2011 Toyota Camry weird noise while driving,Has anyone else hearing this weird sound or ever heard this weird sound with their car? I just got 4 brand new tires so just trying to figure out what this sound could be.,1,1754454925.0,1,CarHelp,1754593103,2025-08-06 04:35:25,2025-08-07 18:58:23,naemwear (Score: 1): You'd have to upload a video for us to hear
+1mivaeh,Chevy Aveo 2010 codes,Wondering peoples opinions on these codes for my Chevy Aveo 2010 it’s rpms been running high at about 4k going 60mph and when the cars first started it gets stuck in a higher gear for a second does anyone have any idea what any of the issues could be?,0,1754454862.0,1,CarHelp,1754593103,2025-08-06 04:34:22,2025-08-07 18:58:23,camaroE (Score: 1): Looks like an electrical issue. Look into some bad connections or grounds. Any accidents. I'd start there?
+1mjc4e9,Just turned on the car and this noise started almost immediately,"I've changed the alternator decoupler pulley, idler pulley, lower idle pulley, harmonic balancer, water pump and only thing I haven't changed is power steering pump. Suspecting this may be power steering considering I hear squeaking that got more constant when turning. Squeaking for the last week. Need advice before I dive in. This is a 2015 dodge journey 2.4l ",2,1754503912.0,1,carproblems,1754593103,2025-08-06 18:11:52,2025-08-07 18:58:23,"AccomplishedSkirt561 (Score: 1): Lose pulley and belts sounds like 
+If theyre rusty I'd pb alittle as well"
+1mj6vkc,Dpes anyone know how much this will be at a shop?,,0,1754492158.0,8,carproblems,1754593103,2025-08-06 14:55:58,2025-08-07 18:58:23,"Material_Web202 (Score: 2): Yeah, about $1 million
+
+Aggravating-Task6428 (Score: 1): Xxx dollars.
+
+awar3_w0lf (Score: 1): Yea"
+1mj0gfc,Car Cranks But Does Not Start,"Alright; need everyone’s help here. My mother-in-laws 2003 Pontiac Grand Am V6 has been to three different shops. The first two could not figure out the issue and the third one diagnosed it as a computer issue; my brother in law replaced the computer and it didn’t fix the issue. (Good thing we didn’t have the shop fix it) Next I did some research and found that if the RPMs do not move while cranking then maybe it could be the Crankshaft Position Sensor, replaced that and did not fix it. The car only starts SOMETIMES mind you; and this was even before the computer and crankshaft position sensor was changed. What should I do next? Any help is appreciated! ",1,1754474164.0,18,carproblems,1754593103,2025-08-06 09:56:04,2025-08-07 18:58:23,"Ok-Anteater-384 (Score: 2): If you called a doctor to analyze the pain you have he's going to want to see you.
+
+A mechanic has not seen this car; you're changing parts because of info you found on the internet.
+
+Bring it to mechanic!
+
+Entire_Violinist9098 (Score: 2): I had a similar problem few years ago different car , it was my daughter Kia changed the crankshaft position sensor 2 times they were aftermarket, the I bought 1 at Kia it cost more but after installation the engine came alive .
+
+seems to me that the computer will only recognize certain sensors to be OEM or original equipment.
+
+Its my little grain of sand to you.
+
+throwaway007676 (Score: 1): Need to test for spark, check fuel pressure, etc. Random parts won't fix it. You need to find out why it isn't starting before you can fix the problem."
+1mivbor,2011 Toyota Camry weird noise while driving,Has anyone else hearing this weird sound or ever heard this weird sound with their car? I just got 4 brand new tires so just trying to figure out what this sound could be.,1,1754454983.0,1,carproblems,1754593103,2025-08-06 04:36:23,2025-08-07 18:58:23,"Guilty-Researcher237 (Score: 1): The engine seems to be fine so I think the brand new tires are the issue, and maybe the sound came not from the engine but from the new tires you have. Yes indeed I hear other mechanic sounds and I think you're changing the speed, yeah it's totally fine it's normal to hear that, in my opinion I think you have to go to a mechanic and ask to search your car in this situation. Maybe the engine of your car is having some trouble gaining power because you have a brand new tires and the brand new tires you have you just bought it's slowing let's say the engine the power of the engine I'm not the expert so please ask a mechanic to search your car to verify what is happening"
+1mit9nk,Car shaking when accelerating?,Left a parking lot onto a main road and while accelerating across all 3 lanes on the main road it felt like my car was shaking more than what I would think is normal. I know my rear struts are on their last leg damage that’s the case but any other ideas? I’ll preface this by saying I took the car on 3-4 pulls from 20 to 60pmh after and I didn’t experience the same shaking. ,1,1754448583.0,1,carproblems,1754593103,2025-08-06 02:49:43,2025-08-07 18:58:23,No-Tank3790 (Score: 1): Shitty road surface.
+1miro1o,Car won’t start despite new battery,"Hi everyone, yesterday my car wouldn’t start and after getting a jump, I bought a new battery as the old one had that bluish dust (I’m blanking on the name). I cleaned the connectors and everything and installed the new battery. It still won’t turn on. The lights turn on, so does the radio and AC, all of it, but then I turn the key to start the engine and everything turns off, not to mention the key gets stuck in the ignition. Then I have to disconnect and reconnect it to get the key out. 
+
+Additional details: I have a 2013 Chevy Impala and the negative connector won’t go all the way down despite tightening and pushing as much as I can, though it was the positive connector/terminal that had the blue dust. 
+
+If anyone knows anything I’d love some direction, lol. Or if you need any more details I can share them too.",1,1754444019.0,3,carproblems,1754593103,2025-08-06 01:33:39,2025-08-07 18:58:23,shoobydoobydoo69 (Score: 1): Do you hear any noise when you turn the key? could be a bad fuse or blown relay.
+1mirgau,Expensive keys,quick question for the auto locksmiths can I ask why it is truly this expensive I got a 1999 Cadillac deville and I'm getting quoted 500 for a new key and I don't even know man if it's worth it I love the car and everything but it's just like almost as much as I had paid for it quick question for the ,2,1754443418.0,6,carproblems,1754593103,2025-08-06 01:23:38,2025-08-07 18:58:23,"No-Tank3790 (Score: 1): Locksmiths charge for the immobilizer programming not the key cutting. 500 seems a bit much, but I wouldn’t be surprised at 260. My brother had a 2004 deville and he found a way to have the car itself to program the key. But you need to make sure to buy the right blank and have it cut at the hardware store. The owners manual has instructions on how to program a new key considering you have the original key to the car. 
+
+His original key was broken but when placed right by the ignition cylinder, the immobilized would read and start the car. 
+
+A mobile locksmith might charge less, as he isn’t paying rent on a shop.
+
+dale1320 (Score: 1): Your key has an embedded chip that is sprogrammed to the computer as a security feature.  GM uses 2 types. 1 is just tbe chipped key, the other incorporates the key fob and key together.
+
+Did you get that quote from the Caddy dealer?
+
+There are several less expensive options:
+
+1.  Some Autozones, ans other parts stores can sell and program a key, as long as you have a good one to copy. Most are under $200 complete.
+
+2. Several sites on the web sell chip key blanks with instructions to program yourself. Then take it anywhere rhat can cut the key. Under $100 complete.
+
+anonposting987 (Score: 1): Every answer here so far is wrong.  A 1999 Cadillac probably had VATS which was a resistor in the actual key itself.  Each key had a unique resistance that the vehicle read, and if it didn't match what was expected, it would not engage the fuel pump.  
+
+OP Google GM VATS and see if your old key looked like the images you get and please report back.  They were pretty distinctive. There were only about 20 different resistance values, so it was not very secure, but more secure than no VATS
+
+I used to work at a car stereo shop back in the early 2000's where I installed remote starters, which were basically a fancy way to hotwire your car.  I could bypass these with a simple relay and a resistor.
+
+The next key based security for GM was called PK2 and had the resistor based in the ignition cylinder so it prevented hot wiring.  These needed no special keys.  
+
+GM didn't start using transponders until something around 2003?  
+
+$500 seems expensive for what you have.  I'd look for a second quote
+
+Edit: Also I believe you can program these yourself if you buy a VATS key online, but you still have to have it physically cut by a locksmith and with no original key to copy that is still probably expensive.
+
+Edit to an edit:  if you find a shady car stereo shop that has some old dudes that were doing this in the early 2000's like me, they can probably permanently disable this system so all you need is a basic key."
+1mjkyer,Car died after turning OFF the AC,"2011 Subaru Forester. Just wondering if anyone had a guess on what would cause this to happen. Trying to get her fixed up. I just got the nearly dead battery up to a full charge and was happy about that. Past owner was a smoker and had a dog so I have been trying to get the smell out. I was running an ozone generator in it, and had it idling for about an hour or so, with the AC blasting on recirculate, checking on it intermittently. Seemed to be doing just fine. Finished the ozone cycle, went to air it out and I was going to cut the AC off before shutting the car off, but as soon as I turned the AC to zero it just died. Tried google and saw tons of posts about cars dying when turning the AC ON, but nothing about turning it off.",2,1754524795.0,8,autorepair,1754593103,2025-08-06 23:59:55,2025-08-07 18:58:23,"doozerman (Score: 1): IN THEORY, in the compressor is actually seizing internal and the clutch is sticky, turning it off could have caused an excess load that might shut the engine off but that’s unlikely. It’s probably an unrelated fluke but these compressors are know to be problematic
+
+One-Awareness785 (Score: 1): Maybe it's something to do with the alternator or relay, because the AC draws a lot of power."
+1mjkovg,I need help identifying what's bent in my 2006 Toyota rav4,I hit my car recently I fixed the damage parts but apparently theres something bent in the passenger side and my wheel keeps turning right on its own when I back up does any thing look off in theae pictures ? My car is a 2006 Toyota rav4 sport I dont know what is bent and if its fixable or how to compare my car to a car THAT hasn't been hit thank you,1,1754524080.0,32,autorepair,1754593103,2025-08-06 23:48:00,2025-08-07 18:58:23,"shotstraight (Score: 4): It is hard to tell from pictures alone. It could be the lower control arm, subframe could be bent or shifted, an inner or outer tie rod. Likewise, it really needs to go on an alignment rack to be evaluated, but one thing I can promise you is those struts left the party a long, long time ago. You definitely need some quick struts when ever you fix what's bent also.
+
+Jcholley81 (Score: 3): The lower control arm is clearly bent. In the 5th picture, at the bottom, 2/3rds the way to the right you can see the folds. 
+
+That’s not to say there’s nothing else bent and it’ll definitely need an alignment, but replacement of lower control arm is absolutely step 1.
+
+Source: 25+year ASE master L1 tech.
+
+JohnMcLachlan1776 (Score: 2): Honestly nothing looks rly bent but, your subframe could’ve shifted or your alignment could’ve literally just been kicked out but hitting whatever, but yeah take it to a shop with an alignment rack that’s not a dealership and they could probably tell you or just realign it for you and call it a day"
+1mjiv50,Was this pricing fair?,Had to limp my 2012 Infiniti G37 to a local shop I hadn’t been to before. The labor time and some of the part markups seem unfair to me. Thoughts?,1,1754519457.0,13,autorepair,1754593103,2025-08-06 22:30:57,2025-08-07 18:58:23,"Radiant_Street_5448 (Score: 3): Seems decent its right about what my shop charges for that job maybe a little more.
+
+Mazdaspeed3swag (Score: 3): Yep, “chace out thread” is killing me though lol
+
+Chainsawsas70 (Score: 2): Shop rate is about average... Time involved same, parts might be able find them cheaper but you don't know where they had to get them from and they have to add cost just to bring them across the books. All in all not bad."
+1mjitty,What kind of brakes should i buy for my fiances car?,"So my friend is going to do my fiances brakes (2019 Kia Optima 2.4L) for me but i have to buy the brakes. he said to use rock auto for the brakes and get em from the 'premium section' with the longest year/mileage warranty. i just want to make sure, is that the case? he does good work and told me not to be cheap but the price range of the brakes goes from $112-$350, so i wanna make sure im buying the right ones considering she does all the driving for our son as well. thanks in advance for the help
+
+https://preview.redd.it/ljhz74bs6hhf1.png?width=1496&format=png&auto=webp&s=4ee533db3d3353cd77dc15738db0bc8566ad3a52
+
+",2,1754519374.0,5,autorepair,1754593103,2025-08-06 22:29:34,2025-08-07 18:58:23,"dankostecki (Score: 2): I have 2 general suggestions - good quality ceramic pads are the way to go, and slotted rotors are unnecessary.
+
+RedditFU43V3R (Score: 2): This is the setup I personally use on my own vehicle:
+
+For brake pads, I recommend going with Akebonos.
+For rotors, Brembos are a solid choice.
+
+Also search online for Rockauto coupon code that will give you a 5% discount.
+
+RickMN (Score: 1): You can't go wrong with Wagner OEX or Akebono. Powerstop is kind of a cult brand. For a street vehicle you don't need slotted rotors. They just chew up your pads much faster. If you're track racing, ok. For street use they're way overkill."
+1mjgvbh,Can I save my doors? Is it already too late?,,2,1754514757.0,11,autorepair,1754593103,2025-08-06 21:12:37,2025-08-07 18:58:23,"abannanna01 (Score: 1): I tried to add the description to the post but maybe it didn't work? basically I love the car and I would buy doors if needed but I'm wondering if it is maybe possible for me to save them with a dremel and wire wheel and the right products. Or is this a professional job? or just beyond hope and time to buy doors? 2006 suburban with 180k miles on a 5.3 vortec with 4L60E with some goodies. thanks!
+
+Headgasket13 (Score: 1): That’s not horrible, a couple of things to easy your mind 1 Fluid Film the seams from the inside. Either remove the door panel, or use a long tube equipped Shutz gun or equivalent (Fluid Film sells them or they sell a kit to equip a spray can with a long skinny hose you can run into the drain holes). 2 Make sure your weather stripping and window seals are in good condition if not kits are available and it’s a straight forward easy replacement. 3 If you park in a garage get a dehumidifier for it the larger the better, humidity gets trapped in the garage especially if you bring your car in wet from rain or snow. This is really improves the air quality in the space for storing your car. This is very important if you have an attached garage. Last don’t get to excited nothing last forever."
+1mjfs19,Cooling Fan Issue in 01 Civic,"My 2001 Honda Civic started getting hot and letting steam out of the radiator cap.  I noticed that the cooling fan wasn't running, but would kick on when I turned on the AC.
+
+1.) Checked relay by swapping them.  It's good.
+
+2.) Fuse is good.
+
+3.) Jumped the pins on the plug for the cooling fan switch. Fans spin.
+
+4.) Replaced cooling fan switch, but still no cooling fan at temp.
+
+What am I missing/haven't tried?
+
+Thank you in advance.",1,1754512224.0,4,autorepair,1754593103,2025-08-06 20:30:24,2025-08-07 18:58:23,"Ok-Apartment5615 (Score: 2): Coolant temperature sensor
+
+shotstraight (Score: 1): Coolant temp sensors regularly mess up without throwing codes and while the antifreeze is low from you changing it, the thermostat and gasket should be changed also. Remember, some cars have coolant temp sensors and coolant fan switches that are separate from each other. If you post which civic and which engine you have, I will message you the diagram."
+1mjef7s,2000 Toyota Avalon Will not Start,"Hi, I have a 2000 Toyota Avalon that was running just fine back in September of 2024, I went to the store came back out started my car it slowly shut off. I tried to restart it and sounded like it was going to but just wouldn't turn over. I can't find anyone to help me. Looking for help I'm behind on rent and my car ASAP any help would be greatly appreciated.",1,1754509110.0,2,autorepair,1754593103,2025-08-06 19:38:30,2025-08-07 18:58:23,"Chumsicle (Score: 1): That's a long time at the store.  Check the usual suspects: air, fuel and spark.
+
+SaveurDeKimchi (Score: 1): It probably needs a boost from sitting for almost a year while you went to get milk and cigarettes"
+1mjc9lv,Flooded car?,"Drove through flash flooded roads last night,  1-2ft of water. Now car turns over but still starts. What could be the cause of this? I don't think it is hydrolocked due to car still starting. 2015 Chevy Impala , 107km. No lights on either",1,1754504254.0,6,autorepair,1754593103,2025-08-06 18:17:34,2025-08-07 18:58:23,"darealmvp1 (Score: 7): If it's still starting then what the problem is
+
+itsnotmyid4 (Score: 1): Open the air box and check it for water, and is the air filter dry? Check the oil to see if it's overfilled or looks milky."
+1mjbxp3,$10k seems a bit steep?,"I have a 2014 Subaru Crosstrek that I bought new back in ‘14. Now it has just over 115,000 miles.
+
+Took it in for some steering and transmission issues and the total repair cost is estimated at just over $10k at the dealership. An additional $5k optional for an oil leak, but I want a 2nd opinion on that since I’ve never noticed any oil drips/wet spots. I would HOPE it can go about 75k-100k miles after repairs.
+
+  
+Any guess at how much a non-dealer would be? Right now this is more expensive than the car will ever be valued at again.
+
+Quoted services: [https://imgur.com/a/pB3TBBY](https://imgur.com/a/pB3TBBY)",0,1754503473.0,15,autorepair,1754593103,2025-08-06 18:04:33,2025-08-07 18:58:23,"RedditFU43V3R (Score: 2): Ex Subaru tech here. Can you give more info please on this imagine as it is very vague. So we can see what the mechanic is talking about.
+
+https://preview.redd.it/y1o7h0l1xfhf1.jpeg?width=1125&format=pjpg&auto=webp&s=d045d0b6a271197647d96dd3f61c9055a4cc63b7
+
+Ok_Knowledge8621 (Score: 2): Kinda crazy imo how you get charged once for $1400 for “suspension” and then another $2000 a second time for “suspension”… especially because there’s no description at all for the first one
+
+darealmvp1 (Score: 2): It will probably cost a third to a half of what the dealer is asking. Only way to know is to take it in."
+1mj8nvz,Purple/pink smoke from under dash,"I’ve been working on my 2003 Ford Ranger Edge and something interesting happened today. I have the passenger seat out to work on identifying a water leak. When I started the car up, the airbag light was flashing, so I attempted to shut off the passenger side airbag using the control just below the dashboard in the center by turning it to the “Off” position. I heard an electrical crackling sound and saw pinkish purple smoke coming out from under the dash. I immediately turned the passenger side airbag back to the “On” position and disconnected the battery. It stopped smoking, but has me really concerned. What do you think happened?",1,1754496149.0,5,autorepair,1754593103,2025-08-06 16:02:29,2025-08-07 18:58:23,"Plastic-Zucchini-202 (Score: 3): Sounds like you have a short. Have a mechanic look at it so it doesn't fry your wiring and burn up your truck.
+
+toolsavvy (Score: 3): Are you sure it was smoke and not a puff of powder, maybe what you say was a ""electrical crackling sound"" was actually an air hiss?  I have read instances where the powder used on some vehicles' airbags can be pink/light purple.  Your airbag mechanism may have released some air and that might be what you heard/saw?  
+
+Just throwing that out there.
+
+darealmvp1 (Score: 2): Judging by those aftermarket switches to the left of the airbag switch I bet someone has some electrical components under jerryrigged. 
+
+
+Most likely cause is a short "
+1miv85p,Any Hope to Repair this Windshield?,"Just noticed the fine crack running from the rock chip, is this now going to be a windshield replacement?",0,1754454655.0,3,autorepair,1754593103,2025-08-06 04:30:55,2025-08-07 18:58:23,"Kiritomato420 (Score: 3): It’s indeed a windshield replace.
+
+np20412 (Score: 1): yeah thats a goner. Anytime you get the edge you're toast"
+1miq64y,Paint Damage : Road debris or failing paint?,"Looking at a “new” Kia Telluride with 3000mi as it was dealer manager driven for a bit. 
+
+There’s one good sized “chip” and then what looks like another poor hand repair to the left. 
+
+I’m curious for takes on this: 
+
+1) Does this look like road debris damage or failing paint flaking off? 
+
+2) How SHOULD this be repaired by the dealer before I purchase, and how confident should I be in the fix? 
+
+Thank you very much in advance! 
+
+",1,1754439885.0,4,autorepair,1754593103,2025-08-06 00:24:45,2025-08-07 18:58:23,"djq_ (Score: 2): It looks like primer failure, quite more common on white cars and even more common on Hyundai/Kia. On facebook you sometimes stumble on owners groups who try a class action lawsuit. 
+
+From just a picture it is harder to tell though, if there is damage on the plastic under it, then it might be debris. Somebody already fixed up a spot left of it by the looks of it.
+
+Only way to properly fix this is to respray. To get a better/more detailed answer you will have to take the car to a decent body shop and they can tell you exactly what it is.
+
+darealmvp1 (Score: 2): 1. Does this look like road debris damage or failing paint flaking off?
+
+Ive never seen blown out chips like that on factory paint cars. My guess its already been in a fender bender(or two) and had the bumper cover resprayed.
+
+1. How SHOULD this be repaired by the dealer before I purchase, and how confident should I be in the fix?
+
+You can see that the chip on the right has already been touched up and is delaminating more above. The one on the left is halfway there. No way rock chips hit the same spot twice.
+
+qa567 (Score: 1): You took a rock that flexed the plastic which popped some paint off."
+1mjk4wz,What can I do about the coolant?,"Just bought the 08 ford focus couple weeks ago and it’s taken a lot to get running including filling with antifreeze. (Car had sat for over a year, yes I know there has to be a leak but I haven’t got to look yet). I got blue mountain antifreeze from dollar general to be able to get it home. I now know the recommended antifreeze is gold. Should I flush and refill? Or just start adding gold as it leaks out ? ",1,1754522665.0,7,mechanic,1754593103,2025-08-06 23:24:25,2025-08-07 18:58:23,"Notmuchmatters (Score: 3): Don't worry about flushing it if you have a leak. I've used water on my own vehicles to find a leak. Once you repair the leak, depending on what it is you might have to drain half anyway, then flush later with the proper shit.
+
+Mysterious_Wheel9998 (Score: 2): Get a leak test at a shop then you will know fix or let them fix"
+1mjiut3,"Radiator and reservoir are both filled with coolant, no hot air.","2005 tundra sr5 4.7 automatic
+I’m having some trouble with my heat  not working, I was told I might not have enough coolant. If I run my car for about 15 mins, car will start to overheat, the radiator will start to overfill the reservoir and looks like it’s boiling. 
+
+It’s got new water pump, water pump belt, thermostat, radiator is about 10 months old. I tried doing a radiator flush but my car kept overheating and hot air didn’t work either. 
+I need help please
+",0,1754519437.0,30,mechanic,1754593103,2025-08-06 22:30:37,2025-08-07 18:58:23,"No_Seaworthiness5683 (Score: 3): Feel your heater hoses with heater on.
+
+About the boiling, is it overheating? Is the rad cap good?
+
+Old_Confidence3290 (Score: 3): It should be tested to see if the head gaskets are leaking."
+1mjh38x,What is the weird sound right after the engine start?,"The car is Skoda Octavia 2, 1.6, 2006",1,1754515257.0,3,mechanic,1754593103,2025-08-06 21:20:57,2025-08-07 18:58:23,LaffielAbriel (Score: 1): I'm having a really hard time hearing anything bad.
+1mjgs2n,Amateur here. Pulled the transmission oil pan from Ram Promaster 2500. Magnet came out like full of obviously metal deposit. Pan has small chunks of metal also. Is my transmission toast? How long til complete fall out?,,7,1754514546.0,12,mechanic,1754593103,2025-08-06 21:09:06,2025-08-07 18:58:23,"jasonsong86 (Score: 5): It’s nothing crazy imo. Clean it up and do another drain and fill and see.
+
+MoveNGrove (Score: 3): Maybe a week Maybe a year. All we know if there is heavy wear and the extent of that wear is unknown.  Is trans slipping or does it have erratic shifts?"
+1mjgrqi,2007 Pontiac G6 3.9 L oil pressure light keeps coming on when I go above 2000 RPM need help,The oil pressure light goes on and off when I drive it was sitting for a while. I changed the oil twice the first time I got the oil changed put seafoam in it then then another oil change afterwards with Pennzoil ultra platinum high mileage still doing the same thing the car sat for about three months before I drove it the first time so I’m wondering if it’s the oil pressure sensor or if there is an actual problem with the oil pressure,1,1754514522.0,5,mechanic,1754593103,2025-08-06 21:08:42,2025-08-07 18:58:23,jasonsong86 (Score: 1): Probably oil pressure sensor.
+1mjgq95,Cv axle making noise:( pls help,I have a 2010 Toyota Corolla 1.8L and I recently replaced the Left CV axle because it has been making popping/ grinding metal on metal noise when I accelerate while turning. Mostly at slow speeds and definitely while on an incline. The sound went away for a month and now it is back in full swing. Any guesses? ,1,1754514427.0,2,mechanic,1754593103,2025-08-06 21:07:07,2025-08-07 18:58:23,"Ok_Pipe_1365 (Score: 1): There are a lot of shitty axles on the market. You probably got a bad one. 
+
+Buy an OEM one from the dealer or see if Raxles sells one for your vehicle."
+1mjgott,Unidentified Oil Leak,"Found a puddle of oil after running car for a few miles and back in the driveway, made sure it wasn’t the oil pan, gasket, or filter. Then finally caught a video of what was leaking, could anyone tell me what it is?
+
+Pictured is where the hose is that’s leaking and circled is a screenshot of a video I took as it was leaking during idle.
+
+Internet seems to thinks it’s a PCV hose or breather hose?",1,1754514337.0,6,mechanic,1754593103,2025-08-06 21:05:37,2025-08-07 18:58:23,"christiannfleming (Score: 1): For reference: 2009 Hyundai Accent
+
+jasonsong86 (Score: 1): That hose looks like a coolant hose."
+1mjge01,Coolant Loss Issue,"My car has recently started losing coolant at a rapid rate, and I initially suspected a blown head gasket. However, I’ve performed a block test, a glove test, and a compression test — all of which the car passed. There are also no typical signs of a head gasket failure such as white exhaust smoke, milky oil, or engine misfires.
+
+Given these results, have I effectively ruled out a head gasket issue, or is further testing still necessary? If the head gasket isn’t the problem, what are the most likely causes of the coolant loss?",2,1754513632.0,7,mechanic,1754593103,2025-08-06 20:53:52,2025-08-07 18:58:23,"OkCaterpillar713 (Score: 3): Go to Harbor freight and buy a coolant pressure tester. This way you can pressurize the system and look for where you’re getting the leaks. I would look at the water pump and see if you can see the wee pole and make sure it’s not coming from there. There is a small hole on the water pump housing.
+
+Old_Confidence3290 (Score: 2): Most cars with automatic transmission can leak coolant into the transmission oil, check for milky appearance there. Also, drive the car until it's fully warm and there's pressure in the cooling system. Park it until it has completely cooled, probably 8 hours or more. Remove the radiator cap. If there's still pressure in the cooling system, you have a leaking head gasket or other combustion gas leak."
+1mjcdt7,2011 Pontiac gt g6,Something broke by my tire can someone tell me what it is so I will know myself please thank u so much,1,1754504511.0,2,mechanic,1754593103,2025-08-06 18:21:51,2025-08-07 18:58:23,"chickennoodle1971 (Score: 1): this is a best guess from the video but looks like ruptured CV axle boot and the grease fell on lower control arm and ball joint. the tie rod is hidden by the CV axel so hard to tell if it’s not the outer tie rod or tie rod ball joint. if you can jack up and shake the wheel it will tell you more than my guesses. shake side to side, if moves then prob tie rod. shake up and down, if moves then prob lower ball joints. spin wheel, it a lot of noise then prob CV axle or bearing."
+1mjc1uj,2007 Honda crv not starting,"Hello I have a 2007 Honda crv and it’s not starting it’s just making this noise. I had issues starting it for about 2 weeks then it just stopped completely on Saturday and started sounding like this, is it my starter? Or is it something deeper like my motor or engine I’ve heard 3 different things now.",3,1754503748.0,7,mechanic,1754593103,2025-08-06 18:09:08,2025-08-07 18:58:23,krenderlin (Score: 2): definitely starter motor. sounds like its not engaging with the flywheel. might be worth seeing how easy it is to get to and if its possible to remove.
+1mj9p2a,Crack where the screw goes in,"Got 2 options, all it does is sandwich the gear box to the bell housing. Should i have it tig welded? Or should i lob off the cracked part and put in a shorter screw? Plenty of material to work with it looks, i reckon i can shorten it and id be OK.
+
+Because of rule 2, 1997 Alfa Romeo 155, 1.6 twin spark...not that that makes a difference.
+
+Also to note im building a Busso V6 to swap in at some point.",6,1754498474.0,18,mechanic,1754593103,2025-08-06 16:41:14,2025-08-07 18:58:23,"macktanker-2127 (Score: 2): Someone  used a impact  on it
+
+Adolin_Kohlin (Score: 2): Drill a small hole at the end of the crack. This way it can't continue forward. Then clean it, clean it, and clean it some more. Then try jb weld."
+1mjhyp5,Rear window defogger separated grid lines,I found this online. This is for a Land Rover Discovery Sport,0,1754517309.0,30,StupidCarQuestions,1754593103,2025-08-06 21:55:09,2025-08-07 18:58:23,"FuzzelFox (Score: 9): \>A rood pod is fitted and contains antenna for satellite radio, digital radio, mobile communications and GPS.
+
+**>The Heated Rear Window elements are utilized for AM and FM and DAB reception.**
+
+[https://www.lrdisc.com/antenna-821.html](https://www.lrdisc.com/antenna-821.html)
+
+Stop using the AI overview, it's literally bullshit and it's making y'all dumber. Most cars that don't have an actual antenna use the rear window defroster lines. This is extremely common and extremely old tech. Even my 1995 Town Car did this.
+
+PSXer (Score: 9): If Google AI says it, it must be true. There's no other possible explanation.
+
+PetitPxl (Score: 6): What is the question?   
+You've posted a picture of a shark fin antenna, and a rear de-mister but absolutely no context."
+1mjhg5m,Recs for Company to buy Car Parts,Does anyone know some good companies to sell my car for parts? I know of LKQ but would love other options as well. It’s a 2018 Nissan Altima. It was in an accident and the front bumper is totaled. Thank you! ,3,1754516091.0,7,StupidCarQuestions,1754593103,2025-08-06 21:34:51,2025-08-07 18:58:23,"4350Me (Score: 3): The “front bumper” is totalled? Do you mean, the “front end”?
+
+Eleven10GarageChris (Score: 2): Call around to some junk yards in your area. They may be interested in buying the car
+
+dale1320 (Score: 1): Get quotes from several yards."
+1mjha2d,Nissan Sentra SV,"Changed alternator, changed battery. Now AC blows hot , only drivers side window goes down , and the speedometer were the speed goes up doesn’t show up on dash. What could be problem?",1,1754515695.0,1,StupidCarQuestions,1754593103,2025-08-06 21:28:15,2025-08-07 18:58:23,"xXCodfishXx (Score: 1): You need to check for bad grounds first. Ideally get a service manual with a schematic or find one on the internet. 
+
+This issues where not present before you changed the alternator and battery? You likely disconnected a ground in the engine bay, or shorted something. Also check all the fuses."
+1mjfcq9,Broken rear defogger lines,,0,1754511244.0,3,StupidCarQuestions,1754593103,2025-08-06 20:14:04,2025-08-07 18:58:23,woodwork16 (Score: 1): And????
+1mjaq2t,2019 Hyundai Tucson mods,Looking to upgrade my Tucson. Don’t know whether to start with a tuning? Or a cold air intake. Never done anything to a car so looking for some advice. Trying to push more HP and get a good sound coming from the engine. Is this car even worth modding? ,0,1754500761.0,1,StupidCarQuestions,1754593103,2025-08-06 17:19:21,2025-08-07 18:58:23,"taga_mod106 (Score: 1): I personally wouldn't even bother. 
+At most maybe wheels or a slight kit (I've seen subtle sideskirts and front + rear lips for the bumpers). 
+Anything else like engine stuff? Def no. They won't sound nice and u won't get much power unless u spend a good bit of money."
+1miyypr,Is toyota supra still a good car?,Is supra still known as a good car in US or is it trolled now?,0,1754468345.0,4,StupidCarQuestions,1754593103,2025-08-06 08:19:05,2025-08-07 18:58:23,"SJHikingGuy (Score: 3): It's 75%ish a BMW z4. Shared platform, most internals, same production factory. Even the steering wheel and shifter are German. Rumor says the new one will be fully Toyota though...
+
+BlatantPizza (Score: 1): Super trolled and not even foyped anymore. I’d get a g37 so you don’t get rollied on
+
+unsubstalker (Score: -8): depends if you like that import shit or good ol' american muscle"
+1miwz3j,Chevy Sonic oil life percentage gauge,"When I started my car to drive home from work, I saw that the dash of my 2015 Chevy Sonic had an icon with an oil can, percentage and CHANGE on it, something I've never seen before. I'm at 41k miles, my sticker says 44k miles for the next service, I go to a place where I sit in the car and let them do the oil change so it's never been manually reset as far as I know - is it likely that it just needs to be reset, or is it reading something and I need to do something more drastic? I'm going to do a dipstick later once it cools down (and I stop freaking out), but I'd like advice on if this is probably a false reading or not.",0,1754460706.0,3,StupidCarQuestions,1754593103,2025-08-06 06:11:46,2025-08-07 18:58:23,"Dangerous_Echidna229 (Score: 1): The oil life display needs to be reset at every oil change, see your manual.
+
+bigev007 (Score: 1): They're all math based, so it's not sensing anything with your oil. The only thing might be that they're sometimes also time based, asking for a change after a year regardless of miles.
+
+
+But if you haven't been resetting it, you just need to reset it because the equation doesn't know you changed it "
+1mjgd59,"Swapping seats in a L405 Range Rover, Coding","I have a 2013 L405 range rover and I bought seats from a 2014. My original seats are heated only. The donor car seats are heated, cooled, massage. 
+
+I have sdd and using engineering mode I was able to activate all of the settings to get heated and cooled and massage to show up in the display.
+
+However, once I go to install the seats, they don't communicate with the Bcm. Makes sense, they probably need to be programmed. However, the option in SDD won't program them.
+
+It only let's me select a hardware type that is not the one of the donor car. 
+
+Is there a way to modify the VBF of my car with the new DSM hardware number? It keeps trying to flash the software part number of the old part number ""bj32"" and not the new one ""dpla"" 
+",1,1754513577.0,2,CarHacking,1754593103,2025-08-06 20:52:57,2025-08-07 18:58:23,"Lee2026 (Score: 2): Was the car pre-wired for the cooling and massage functions? 
+
+Are you sure the wiring exists to even have those functions work?"
+1mj976h,"Help! Newbie trying a replay attack on my car keyfobs, but URH and CC1101 are giving me trouble","Hey everyone, I'm new to this whole SDR and RF thing, and I'm trying to do a simple replay attack on my cars. I only have an RTL-SDR for capturing, so I built a tool to transmit the signals I capture using a CC1101 RF module and an ESP8266. I followed[ this YouTube video](https://www.youtube.com/watch?v=iPVckkTjsd0) for guidance, but I'm completely lost on what the guy is calculating in the video.
+
+I have two cars, and after analyzing their keyfobs with SDR++, I found that one uses FSK modulation and the other uses ASK.
+
+The ASK signal works mostly fine. When I capture it with Universal Radio Hacker (URH), it decodes the signal and I can see the preamble and the actual data. However, when I re-transmit it using my CC1101 tool and recapture it with the RTL-SDR, the ""pause"" values are different from the original signal.
+
+The FSK signal is where I'm really stuck. I entered the center frequency and captured the signal, but I can't see the preamble or the decoded data like I did with the ASK signal.
+
+My main questions are:
+
+How do you properly capture FSK signals using URH?
+
+What exactly is the ""pause"" value in URH?
+
+Is it even possible to accurately re-send a captured signal using the CC1101 tool I built?
+
+What is he calculating in the video I linked?
+
+Any advice, tips, or guidance would be greatly appreciated! Feel free to DM me or comment below.",17,1754497351.0,1,CarHacking,1754593103,2025-08-06 16:22:31,2025-08-07 18:58:23,"azriel721 (Score: 1): Sorry, I put the wrong link there; the video where he does a replay attack is [this one](https://www.youtube.com/watch?v=mdkEK_wmWJA)"
+1mj8kut,Need advice for an anti lag device for cars with Manual transmission,"I've been working on this device that tries to give you pops / burbles by cutting the spark entirely during deceleration. Its basically just a relay / switch that's placed in between the ignition coil and the sparkplug and during deceleration I manually press a button to cut the spark while keeping the accelerator pedal pressed - this way I get unburnt fuel going into the exhaust. This was going well until I realised that as soon as the ECU detects that the sparkplug is disconnected, it also stops injecting fuel. So for now I've put this idea aside but have come up with a different plan using the same device with some tweaks - An Antilag device to reduce turbo lag during upshifts.
+
+  
+The theory :  
+Tweak the device a little bit to integrate it with the OBD2 port so it can receive live data such as accelerator pedal position, rpm etc.
+
+When it detects clutch fully pressed and accelerator fully pressed and rpm > some threshold - Cut spark. Then when the clutch is released again, resume spark. This way I can keep the turbo spinning. I know this will throw a DTC but that's ok as long as it doesn't go to limp mode. What do you think? is this feasible",2,1754495973.0,15,CarHacking,1754593103,2025-08-06 15:59:33,2025-08-07 18:58:23,"Lee2026 (Score: 4): I don’t think a piggy back anti lag setup is a good idea…
+
+If you cut spark, how do expect the turbo to stay spooled with no combustion?
+
+Anti lag works by retarding timing, injecting more fuel, or using a bypass valve (rally style) to keep the turbo spooled. There is still some form of combustion to keep the turbo spinning
+
+BudgetTooth (Score: 6): my boi out here re-inventing the wot box
+
+mastawyrm (Score: 2): The fact you thought of OBD before directly reading voltages tells me you're likely working with more modern stuff. So, OBD can be slow, you're better off listening to canbus. 
+
+For the spark you could probably replace the on/off concept with a normal/shunt to ground through resistor so the ecu thinks things are working properly.
+
+And finally, you know this is going to quickly burn up the turbo and/or cats right?"
+1mj8uat,Does it make sense to join the trade?,"I (22F) have a wonderful father (50M) who since he was 12 has been a mechanic. He grew up in Mexico and has worked on things as big as rigs and as small as motorcycles. His father taught him how to work on cars and despite trying to enter other professions, he ultimately always returned to car work and now owns his  business in the SF bay area. He's been at his own shop for the last maybe 10-15 years. I am his eldest child and I feel like I have always expressed a genuine interest in auto work. When I was little living in Mex and he fixed microbuses I would be there watching and handing him tools. As I got older tho, my mom and dad didn't think it was safe for me to be around the shop a lot and never thought auto work would be a genuine career path. Perhaps because I'm a woman and mostly because they wanted me to get an ""education"" and a ""real career"" where I ""didn't have to work so much."" I think what they meant was getting a desk job or a job where I was ""paid to think""  and to ""follow my dreams."" Unfortunately, my dreams were to become a journalist/reporter and in the prime year of 2025 news media is dying and seasoned reporters are fighting over what are supposed to be entry level jobs. I'm trying to break into that industry but it is so grueling and ruthless and I simply cannot compete with ppl who have 5-7 years of experience over me. No matter how much I sell myself I always fall short.
+
+In the summer of 2022 (I was 19)  I worked briefly with my dad and he taught me how to do oil changes, install new brakes, install a new timing chain/belt, install spark plugs and other basic stuff. I will admit my back was  SHREDDED within the first week and the first day I worked with him I slept for 15 hours upon coming home.  I only worked for like three weeks before getting an internship at a university doing comms for alumni relations which I hated but for the sake of experience I did it.
+
+My father has a successful business, but he is nearing retirement age and I can tell he is on the down trend in term of his physical capacities. Id give him 10-15 more years tops. I obviously don't want to imagine what we're gonna do with all his tools when he passes, but I just feel like it would be a huge missed opportunity to create generational wealth through the garage before he passes. I have a pretty useless degree in journalism, and following my dreams kinda left me in an equally shitty position if I just  hadn't gone to college. My current job, which has no degree requirements, is in admin and I'm technically an ""intern""  making 27 an hour with ZERO benefits. I have a hard time even getting jobs without a degree requirement. I don't think im dumb i just think the job market is fucked and I'm young/ ""inexperienced"" So really wtf am I doing?
+
+  
+Should I just commit to my father and work under him and learn as much as I can and make the business my own when my dad steps down? How risky do you guys think this is? Will this backfire like my other career choices? Will it be harder for me to retain clientele because I am a woman? 
+
+TLDR: My (22F) dad (50M) is a 35+ years experienced mechanic. I have a degree in liberal arts. My degree isn't helping me get a good job where I dont have to ""labor"" as hard which is what father wanted. I've always expressed interest in auto work. Should I become an apprentice under my father for however long he has remaining in him and take over the business when he retires?",2,1754496552.0,4,AutoMechanics,1754593103,2025-08-06 16:09:12,2025-08-07 18:58:23,"alteredpilot (Score: 2): Get in there. Learn the trade. Learn the business. 
+
+I've been in business for 18 years and I wouldn't trade it for anything.
+
+I've been around the trade my whole life. my dad was a shop owner then took a position at the city. I went into the biz straight out of high school got my AA in automotive with a factory specialty. Worked at the dealer. My head always echoed with ""work smart, not hard"" so I went back to school. Started on a business degree for two years, and wound up with a BA degree in audio engineering and digital media with a music minor. I went straight out of university back into automotive. Couldn't hack it as an employee so I went independent. Been working with my dad for the last 18 years and it's been the best experience ever. 
+
+If you know what you're doing, what you're talking about, how to talk to both sides of the ticket, how to run the front end and the back end of the shop, you'll do great. You also have the advantage of being able to bring modernity to your dad's shop. Getting his social media presence out there. Getting a modern website. Using technology for customer communication and retention. Using digital platforms for marketing. 
+
+Your ultimate goal is to be a business owner not simply a business operator. Build the business to the point where you never have to touch a wrench again, write another ticket, sell another service. Build culture and community, train and hire, focus on growth and profit.
+
+I'm sure your dad is a great guy who knows his stuff, but I suggest not relying solely on his experience. Get outside mentorship and education. You can take courses online from very reputable sources on business, finance, shop management and service writing. Join your local automotive service council meetings.
+
+Truth is, you're still young enough that if you wind up not liking it, you still have the rest of your life to find a new path. But if you do like it, and find a passion for it, the sky is the limit.
+
+Thinkfastr11 (Score: 1): Do yourself a favor and study to be a fireman if you want to do blue collar work. When you retire you will be set for life. The Automotive field will be tough to do for a woman. I have however in the 45 years in this trade had the privilege to work with two women techs so if this is what you want to do it’s possible. Or if you could take over your dad’s shop when he retires that would be ok. The only ones making any kind of real money in the auto field these days are the owners of the shops. Cause the techs even at there maximum master tech level work twice as hard as a fireman for instance and at the same pay scale. If you do decide on this field my advice to you would be to find a school where once you graduate you’ll have ASE certifications so nationwide you can demand higher pay. Also if you can learn to use a scanner it will also be to your benefit. Good luck
+
+AJH131 (Score: 1): Much as I love working on cars in addition to all my experience, it's crazy to me how much more people are willing to pay me for plumbing services without batting an eyelash -not to mention I must have around 40k mechanic related tools & for plumbing I don't need much more than a torch & spanner wrench.
+That said, do what you love; do what you enjoy & take pride in; for when this is the case, truer words were never spoken that you'll never work a day in your life. In either case, start early setting money aside & investing it. No matter what you choose, this is the way.
+All the best to you"
