@@ -105,7 +105,8 @@ def run_llm_cleaning_logic(logger=None):
 
     start_time = time.time()
 
-    for idx, row in df.iterrows():
+    # for idx, row in df.iterrows():
+    for idx, row in df.head(10).iterrows():
         title = row.get("title", "")
         selftext = row.get("selftext", "")
         # comment = row.get("top_comments", "")
