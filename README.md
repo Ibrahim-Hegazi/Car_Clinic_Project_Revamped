@@ -100,3 +100,26 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 - **Cloud Deployment Planning**: Prepare for scalable deployment using containerization and managed cloud services.  
 
 ---
+
+## 📈 System Architecture
+
+```plaintext
+Reddit
+  |
+  v
+[Data Extractor] ──▶ [Data Cleaner (LLM)] ──▶ [Augmenter + Translator]
+                                                |
+                                                v
+                                    [Tag Generator (LLM/Rule-Based)]
+                                                |
+                                                v
+                             [Embedding Generator (SBERT/Instructor)]
+                                                |
+                                                v
+                         [Branch Matcher (Tags + Vectors + Filters)]
+                                                |
+                                                v
+                          [Best Repair Branch Recommendation Output]
+                                                |
+                                                v
+                                  [Emergency Repair Chatbot API]
