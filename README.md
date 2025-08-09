@@ -436,3 +436,4 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 ---
 
 ## 🧬 Data Flow Diagram
+![Data Flow Diagram](docs/data_flow_diagram.png)
