@@ -9,7 +9,7 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [🔎 Project Overview](#-project-overview)
 - [🚀 Final Goals](#-final-goals)
 - [🏁 Competitors](#-competitors)
-- [⚠️ Challenges Faced](#-challenges-faced)
+- [❗ Challenges Faced](#-challenges-faced)
 - [⛔ Project Roadblocks](#-project-roadblocks)
 - [💡 Suggested Solutions](#-suggested-solutions)
 - [📈 System Architecture](#-system-architecture)
@@ -65,7 +65,7 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
-## ⚠️ Challenges Faced
+## ❗ Challenges Faced
 
 - **Data Noise and Quality**: Reddit data contains spam, bot posts, slang, and irrelevant content making cleaning complex.  
 - **LLM Offline Processing**: Running large language models locally for data cleaning and understanding requires significant compute and optimization. Therefore leading to other solutions that might be costly.
