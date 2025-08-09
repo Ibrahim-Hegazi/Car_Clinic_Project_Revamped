@@ -428,6 +428,10 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 - 🔁 **Used again in:**  
   Onboarding, public release, presentations
 
+  ---
+
+  ## 🧬 Production Data Flow Diagram
+
 - 📤 **Outputs:**  
   `/docs/`, `README.md`, diagrams, prompt designs, schema
 
