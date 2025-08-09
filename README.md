@@ -9,7 +9,7 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [🔎 Project Overview](#-project-overview)
 - [🚀 Final Goals](#-final-goals)
 - [🏁 Competitors](#-competitors)
-- [⚠️ Challenges Faced](#-challenges-faced)
+- [⚠️Challenges Faced](#-challenges-faced)
 - [⛔ Project Roadblocks](#-project-roadblocks)
 - [💡 Suggested Solution](#-suggested-solution)
 - [📈 System Architecture](#-system-architecture)
