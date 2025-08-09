@@ -15,7 +15,7 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [📈 System Architecture](#-system-architecture)
 - [🔧 Features](#-features)
 - [🧪 Pipeline Phases](#-pipeline-phases)
-- [🧬 Data Flow Diagram](#-production-data-flow-diagram)
+- [🧬 Data Flow Diagram](#-data-flow-diagram)
 - [🗂 Directory Structure](#-directory-structure)
 - [⚙️ Tech Stack](#-tech-stack)
 - [⚡ Getting Started](#-getting-started)
