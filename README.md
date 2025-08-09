@@ -15,7 +15,7 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [📈 System Architecture](#-system-architecture)
 - [🔧 Features](#-features)
 - [🧪 Pipeline Phases](#-pipeline-phases)
-- [🧬 Production Data Flow Diagram](#-production-data-flow-diagram)
+- [🧬 Data Flow Diagram](#-production-data-flow-diagram)
 - [🗂 Directory Structure](#-directory-structure)
 - [⚙️ Tech Stack](#-tech-stack)
 - [⚡ Getting Started](#-getting-started)
@@ -435,4 +435,4 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
-## 🧬 Production Data Flow Diagram
+## 🧬 Data Flow Diagram
