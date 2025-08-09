@@ -53,3 +53,15 @@ This enables:
 - ✅ Fully documented: Complete with data samples, diagrams, testing artifacts, and prompt design logic.
 
 ---
+
+## 🏁 Competitors
+
+Several projects and platforms tackle automotive problem diagnosis and repair recommendations using AI and data-driven approaches. Notable competitors include:
+
+- **[RepairPal](https://repairpal.com/)**: Offers cost estimates and nearby repair shops but lacks real-time AI-based issue parsing from community data.  
+- **[YourMechanic](https://why.yourmechanic.com/)**: Provides on-demand mechanic services and diagnostics but doesn't leverage large-scale social data for problem insights.  
+- **[CarMD](https://carmd.com/)**: Focuses on OBD-II diagnostic tools rather than community-driven repair advice.  
+- **Open-source automotive chatbot projects**: Most lack integration with live community data sources (e.g., Reddit) and LLM Data Cleaning. Example dataset: [car_maintenance_chatbot_project](https://github.com/zebmuhammad/car_maintenance_chatbot_project/blob/main/updated_car_maintenance_issues.csv)  
+
+---
+
