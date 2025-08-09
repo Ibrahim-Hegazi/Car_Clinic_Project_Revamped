@@ -65,3 +65,13 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
+## ⚠️ Challenges Faced
+
+- **Data Noise and Quality**: Reddit data contains spam, bot posts, slang, and irrelevant content making cleaning complex.  
+- **LLM Offline Processing**: Running large language models locally for data cleaning and understanding requires significant compute and optimization.  
+- **Tagging Consistency**: Creating a comprehensive yet manageable tag schema for diverse car issues and mechanic specialties is difficult.  
+- **Semantic Matching Accuracy**: Aligning user problems with correct branches involves fine-tuning embeddings and filter heuristics.  
+- **Multilingual and Slang Variations**: Handling multiple languages and informal expressions adds complexity to augmentation and translation.  
+- **Integration Complexity**: Combining multiple phases—data extraction, cleaning, tagging, embedding, recommendation, and chatbot—requires robust orchestration.
+
+---
