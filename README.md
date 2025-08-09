@@ -87,7 +87,6 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
-
 ## 💡 Suggested Solutions
 
 - **Optimize LLM Models**: Explore quantized models or smaller LLMs with comparable performance to speed up offline inference.
@@ -98,6 +97,15 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 - **Robust Orchestration**: Extend Prefect flows with better logging, alerting, and retries to improve pipeline stability.  
 - **User Feedback Loop**: Design mechanisms to collect user feedback for continuous model improvements and retraining.  
 - **Cloud Deployment Planning**: Prepare for scalable deployment using containerization and managed cloud services.  
+
+---
+
+## 📈 System Architecture
+![System Architecture Diagram](docs/architecture_diagram.png)
+
+---
+
+---
 
 ---
 
