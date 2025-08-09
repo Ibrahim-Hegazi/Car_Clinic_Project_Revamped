@@ -13,9 +13,9 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [⛔ Project Roadblocks](#-project-roadblocks)
 - [💡 Suggested Solutions](#-suggested-solutions)
 - [📈 System Architecture](#-system-architecture)
-- [🛠️ Features](#-features)
+- [🔧 Features](#-features)
 - [🧪 Pipeline Phases](#-pipeline-phases)
-- [🧬 Data Flow Diagram](#-data-flow-diagram)
+- [🧬 Data Flow Diagram](#-production-data-flow-diagram)
 - [🗂 Directory Structure](#-directory-structure)
 - [⚙️ Tech Stack](#-tech-stack)
 - [⚡ Getting Started](#-getting-started)
@@ -104,6 +104,20 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 ![System Architecture Diagram](docs/architecture_diagram.png)
 
 ---
+
+## 🔧 Features
+
+- ✅ Daily Reddit data ingestion and pagination handling  
+- ✅ LLM-powered structured problem–solution extraction (offline)  
+- ✅ Data augmentation: paraphrasing, noise injection, slang simulation  
+- ✅ Multilingual support via back-translation  
+- ✅ Automatic semantic tagging of problems and solutions  
+- ✅ Embedding generation for semantic search (SBERT, Instructor-XL)  
+- ✅ Nearest repair branch recommendation based on tags, embeddings, and filters  
+- ✅ Modular CLI-compatible pipeline and local chatbot interface  
+- ✅ Full orchestration via Prefect and GitHub Actions CI/CD  
+- ✅ RESTful API backend with FastAPI  
+- ✅ Complete documentation, testing artifacts, and prompt engineering guides  
 
 ---
 
@@ -419,3 +433,6 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 </details>
 
+---
+
+## 🧬 Data Flow Diagram
