@@ -18,7 +18,6 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [🧬 Data Flow Diagram](#-data-flow-diagram)
 - [🗂 Directory Structure](#-directory-structure)
 - [📦 Tech Stack](#-tech-stack)
-- [⚡ Getting Started](#-getting-started)
 - [🧠 Prompt Engineering Principles](#-prompt-engineering-principles)
 - [🗓 Roadmap](#-roadmap)
 - [🧾 License](#-license)
@@ -601,4 +600,12 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
+## 🧠 Prompt Engineering Principles
 
+- Clear role and intent definitions  
+- JSON-structured outputs for consistent parsing  
+- Resistant to hallucinations with carefully designed examples  
+- Few-shot learning and instruction-based prompts  
+- Flexible for multi-language support and augmentation
+
+---
