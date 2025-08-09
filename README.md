@@ -68,7 +68,8 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 ## ⚠️ Challenges Faced
 
 - **Data Noise and Quality**: Reddit data contains spam, bot posts, slang, and irrelevant content making cleaning complex.  
-- **LLM Offline Processing**: Running large language models locally for data cleaning and understanding requires significant compute and optimization. Therefore leading to other solutions that might be costly.  
+- **LLM Offline Processing**: Running large language models locally for data cleaning and understanding requires significant compute and optimization. Therefore leading to other solutions that might be costly.
+- **Ollama-Based LLM Processing Time**: Current data cleaning with Ollama-based LLMs, while providing high-quality structured outputs, is time-intensive. For example, processing around 700 rows in Phase 2 can take approximately 31 hours to complete. This runtime presents a bottleneck for scaling and requires optimization or infrastructure improvements to achieve timely data processing.
 - **Tagging Consistency**: Creating a comprehensive yet manageable tag schema for diverse car issues and mechanic specialties is difficult.  
 - **Semantic Matching Accuracy**: Aligning user problems with correct branches involves fine-tuning embeddings and filter heuristics.  
 - **Multilingual and Slang Variations**: Handling multiple languages and informal expressions adds complexity to augmentation and translation.  
@@ -89,7 +90,7 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ## 💡 Suggested Solutions
 
-- **Optimize LLM Models**: Explore quantized models or smaller LLMs with comparable performance to speed up offline inference.  
+- **Optimize LLM Models**: Explore quantized models or smaller LLMs with comparable performance to speed up offline inference.
 - **Refine Tagging Ontology**: Collaborate with domain experts to finalize tag schema and implement automated tag validation.  
 - **Enhance Data Pipeline**: Implement advanced filters and anomaly detection to reduce noise upstream.  
 - **Improve Chatbot Integration**: Develop and test API endpoints for seamless real-time interactions and expand frontend support.  
