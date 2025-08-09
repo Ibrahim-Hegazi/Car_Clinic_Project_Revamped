@@ -1,10 +1,11 @@
 # This file Contains the PRAW setup
 
 import praw
+import os
 
 def get_reddit_client():
     return praw.Reddit(
-        client_id='rRsSEn42kJ-qRpPeAGwAWQ',
-        client_secret='iSAoAUQvfOCkJMZBLkBO7CPCxe8TAA',
-        user_agent='script:MyDataScraperForLLM:3.0 (by /u/Many-Refuse5176)'
+        client_id=os.environ['REDDIT_CLIENT_ID'],
+        client_secret=os.environ['REDDIT_CLIENT_SECRET'],
+        user_agent=os.environ['REDDIT_USER_AGENT']
     )
