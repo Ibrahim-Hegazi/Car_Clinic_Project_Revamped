@@ -73,16 +73,6 @@ def call_llm_and_parse(prompt: str, idx: int, logger):
         return None, {"row": idx, "error": str(e), "prompt": prompt}
 
 
-# def clean_single_row(row, idx, logger):
-#     title = row.get("title", "")
-#     selftext = row.get("selftext", "")
-#     raw_comments = row.get("top_comments", "")
-#     if not title.strip() and not selftext.strip():
-#         return None, None
-#     formatted_comments = format_top_comments_json_style(raw_comments)
-#     prompt = build_prompt(title, selftext, formatted_comments)
-#     logger.info(f"\n\n🔍 [Row {idx}] Prompt:\n{'=' * 40}\n{prompt}\n{'=' * 40}\n")
-#     return call_llm_and_parse(prompt, idx, logger)
 def clean_single_row(row, idx, logger):
     post_id = row.get("id", "")
     title = row.get("title", "")
@@ -99,7 +89,7 @@ def clean_single_row(row, idx, logger):
     result, error = call_llm_and_parse(prompt, idx, logger)
 
     if result:
-        result["post_id"] = post_id  
+        result["post_id"] = post_id
 
     return result, error
 
