@@ -6,7 +6,8 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 
 ## 📌 Table of Contents
 
-- [🚀 Project Overview](#-project-overview)
+- [🔎 Project Overview](#-project-overview)
+- [🚀 Final Goals](#-final-goals)
 - [🏁 Competitors](#-competitors)
 - [⚠️ Challenges Faced](#-challenges-faced)
 - [⛔ Project Roadblocks](#-project-roadblocks)
@@ -25,5 +26,30 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [📬 Future Improvements](#-future-improvements)
 - [🙋‍♂️ Contributing](#-contributing)
 - [📞 Contact](#-contact)
+
+---
+
+## 🔎 Project Overview
+
+**Car Clinic Smart Repair Advisor** is an intelligent, modular system that reads thousands of Reddit threads from car repair subreddits, cleans and structures the data using LLMs, augments and tags content, and then recommends the best-fit repair branch using semantic similarity, embeddings, and geographic filters.
+
+This enables:  
+- ⚙️ Real-time, explainable repair suggestions  
+- 🤖 LLM inference  
+- 🌍 Multilingual data augmentation and understanding  
+- 🧭 Nearest optimal repair branch recommendations  
+- 💬 An interactive chatbot interface for customers and mechanics  
+
+---
+
+## 🚀 Final Goals
+
+- ✅ Autonomous pipeline: From daily Reddit scraping to real-time recommendations.  
+- ✅ LLM processing: Clean noisy car repair data into structured problem–solution pairs.  
+- ✅ Semantic tagging and embeddings: Enrich issue understanding and enable vector similarity.  
+- ✅ Smart Branch Recommender: Match user problems with the best nearby branch based on tags, embeddings, and availability.  
+- ✅ Emergency LLM Chatbot: Provide instant fixes and guidance to mechanics and users in real-time.  
+- ✅ API + CI/CD Ready: Modular FastAPI backend with GitHub Actions and Prefect orchestration.  
+- ✅ Fully documented: Complete with data samples, diagrams, testing artifacts, and prompt design logic.
 
 ---
