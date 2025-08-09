@@ -1,0 +1,15 @@
+file_name,total_posts,total_tokens,estimated_cost_usd
+Reddit_CarAdvice_2025-07-24.csv,678,164503,4.9351
+Reddit_CarAdvice_2025-07-23.csv,666,157543,4.7263
+Reddit_CarAdvice_2025-07-25.csv,648,143897,4.3169
+Reddit_CarAdvice_2025-07-27.csv,599,140021,4.2006
+Reddit_CarAdvice_2025-07-26.csv,623,139356,4.1807
+Reddit_CarAdvice_2025-07-28.csv,637,135323,4.0597
+Reddit_CarAdvice_2025-07-29.csv,496,114018,3.4205
+Reddit_CarAdvice_2025-07-30.csv,479,107953,3.2386
+Reddit_CarAdvice_2025-08-02.csv,472,107409,3.2223
+Reddit_CarAdvice_2025-07-31.csv,458,104993,3.1498
+Reddit_CarAdvice_2025-08-04.csv,454,104330,3.1299
+Reddit_CarAdvice_2025-08-03.csv,492,103919,3.1176
+Reddit_CarAdvice_2025-08-01.csv,463,103679,3.1104
+All Files,,1626944,48.8084
