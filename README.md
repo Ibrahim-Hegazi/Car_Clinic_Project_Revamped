@@ -101,7 +101,7 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
-## 📈 System Architecture
+## 🧪 Pipeline Phases
 
 <details>
 <summary>✅ Phase 1: Reddit Data Extraction (Scraping)</summary>
