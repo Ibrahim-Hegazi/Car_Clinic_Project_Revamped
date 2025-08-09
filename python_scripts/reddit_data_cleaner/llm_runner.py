@@ -2,7 +2,7 @@
 
 import json
 from ollama import Client
-from postprocessor import format_top_comments_json_style
+from postprocessor import parse_multiline_comments
 
 client = Client(host='http://localhost:11434')
 
@@ -82,7 +82,7 @@ def clean_single_row(row, idx, logger):
     if not title.strip() and not selftext.strip():
         return None, None
 
-    formatted_comments = format_top_comments_json_style(raw_comments)
+    formatted_comments = parse_multiline_comments(raw_comments)
     prompt = build_prompt(title, selftext, formatted_comments)
     logger.info(f"\n\n🔍 [Row {idx}] Prompt:\n{'=' * 40}\n{prompt}\n{'=' * 40}\n")
 
