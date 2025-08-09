@@ -120,8 +120,6 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
----
-
 ## 🧪 Pipeline Phases
 
 <details>
