@@ -13,7 +13,7 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [⛔ Project Roadblocks](#-project-roadblocks)
 - [💡 Suggested Solutions](#-suggested-solutions)
 - [📈 System Architecture](#-system-architecture)
-- [🛠️ Features](#-features)
+- [🔧 Features](#-features)
 - [🧪 Pipeline Phases](#-pipeline-phases)
 - [🧬 Data Flow Diagram](#-data-flow-diagram)
 - [🗂 Directory Structure](#-directory-structure)
@@ -105,7 +105,7 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
-## 🛠️ Features
+## 🔧 Features
 
 - ✅ Daily Reddit data ingestion and pagination handling  
 - ✅ LLM-powered structured problem–solution extraction (offline)  
