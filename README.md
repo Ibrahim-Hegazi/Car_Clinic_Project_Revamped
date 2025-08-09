@@ -105,6 +105,20 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
+## 🛠️ Features
+
+- ✅ Daily Reddit data ingestion and pagination handling  
+- ✅ LLM-powered structured problem–solution extraction (offline)  
+- ✅ Data augmentation: paraphrasing, noise injection, slang simulation  
+- ✅ Multilingual support via back-translation  
+- ✅ Automatic semantic tagging of problems and solutions  
+- ✅ Embedding generation for semantic search (SBERT, Instructor-XL)  
+- ✅ Nearest repair branch recommendation based on tags, embeddings, and filters  
+- ✅ Modular CLI-compatible pipeline and local chatbot interface  
+- ✅ Full orchestration via Prefect and GitHub Actions CI/CD  
+- ✅ RESTful API backend with FastAPI  
+- ✅ Complete documentation, testing artifacts, and prompt engineering guides  
+
 ---
 
 ---
