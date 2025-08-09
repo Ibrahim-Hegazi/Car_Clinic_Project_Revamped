@@ -582,4 +582,23 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
     - api_schema.md  # API schema documentation for endpoints
     - sample_output_examples.md  # Examples of expected system output JSONs
 
+---
+
+## ⚙️ Tech Stack
+
+| Category        | Tool / Library                |
+|-----------------|------------------------------|
+| Data Source     | Reddit (PRAW, HTTPX)         |
+| LLM             | Ollama hosted on GitHub      |
+| Embedding Models| SBERT, Instructor-XL         |
+| Tagging         | LLM-driven & rule-based      |
+| Workflow        | Prefect + GitHub Actions     |
+| API Backend     | FastAPI, Pydantic            |
+| Scraping        | PRAW, HTTPX                  |
+| Containerization| Docker, Docker Compose       |
+| Language        | Python 3.10+                 |
+| Storage         | GitHub, PostgreSQL(Future)   |
+
+---
+
 
