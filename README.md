@@ -438,5 +438,5 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 ## 🧬 Data Flow Diagram
 
 <p align="center">
-  <img src="docs/data_flow_diagram.png" alt="Data Flow Diagram" width="50%" />
+  <img src="docs/data_flow_diagram.png" alt="Data Flow Diagram" width="30%" />
 </p>
