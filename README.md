@@ -68,10 +68,34 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 ## ⚠️ Challenges Faced
 
 - **Data Noise and Quality**: Reddit data contains spam, bot posts, slang, and irrelevant content making cleaning complex.  
-- **LLM Offline Processing**: Running large language models locally for data cleaning and understanding requires significant compute and optimization.  
+- **LLM Offline Processing**: Running large language models locally for data cleaning and understanding requires significant compute and optimization. Therefore leading to other solutions that might be costly.  
 - **Tagging Consistency**: Creating a comprehensive yet manageable tag schema for diverse car issues and mechanic specialties is difficult.  
 - **Semantic Matching Accuracy**: Aligning user problems with correct branches involves fine-tuning embeddings and filter heuristics.  
 - **Multilingual and Slang Variations**: Handling multiple languages and informal expressions adds complexity to augmentation and translation.  
 - **Integration Complexity**: Combining multiple phases—data extraction, cleaning, tagging, embedding, recommendation, and chatbot—requires robust orchestration.
+
+---
+
+## ⛔ Project Roadblocks
+
+- Limited computational resources for efficient offline LLM inference slowed data cleaning throughput.  
+- Incomplete or evolving tag schemas caused misclassification in early testing phases.  
+- Integration of real-time chatbot with backend recommender still in prototype stage, delaying deployment.  
+- Dataset imbalance due to sparse comments or rare issues affected model generalization.  
+- Ongoing challenges in automating end-to-end orchestration with retries and failure handling.
+
+---
+
+
+## 💡 Suggested Solutions
+
+- **Optimize LLM Models**: Explore quantized models or smaller LLMs with comparable performance to speed up offline inference.  
+- **Refine Tagging Ontology**: Collaborate with domain experts to finalize tag schema and implement automated tag validation.  
+- **Enhance Data Pipeline**: Implement advanced filters and anomaly detection to reduce noise upstream.  
+- **Improve Chatbot Integration**: Develop and test API endpoints for seamless real-time interactions and expand frontend support.  
+- **Expand Multilingual Support**: Integrate additional language models and fine-tune back-translation workflows.  
+- **Robust Orchestration**: Extend Prefect flows with better logging, alerting, and retries to improve pipeline stability.  
+- **User Feedback Loop**: Design mechanisms to collect user feedback for continuous model improvements and retraining.  
+- **Cloud Deployment Planning**: Prepare for scalable deployment using containerization and managed cloud services.  
 
 ---
