@@ -75,7 +75,7 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
-##❗Key Technical Challenges & Roadblocks
+## ❗Key Technical Challenges & Roadblocks
 
 This project faces a combination of **data-related**, **computational**, and **integration** challenges that impact performance, scalability, and deployment readiness:
 
