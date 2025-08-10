@@ -646,9 +646,35 @@ _Data Engineer • AI Engineer • NLP & ML Enthusiast • System Designer_
 ---
 
 ## 📬 Future Improvements
-- Cloud deployment on **GCP**, **Azure**, or **AWS**  
-- Integration with **Car Clinic’s internal CRM system**  
-- Feedback collection loop for **model retraining**  
-- Real-time monitoring with **Grafana** and **Prometheus**  
+
+- **Cloud Deployment & Scalability**
+  - Deploy pipeline and API services to **GCP**, **Azure**, or **AWS**
+  - Use serverless functions for on-demand processing
+  - Enable auto-scaling for high-traffic periods
+
+- **Integration with Car Clinic’s Internal Systems**
+  - Connect to **CRM** for seamless ticket creation and tracking
+  - Sync with internal repair history databases
+  - Enable push notifications for branch managers
+
+- **Model Enhancements**
+  - Implement continuous **feedback loops** for retraining
+  - Expand **multilingual support** beyond Arabic & Spanish
+  - Integrate domain-specific fine-tuning for higher tagging accuracy
+
+- **Observability & Monitoring**
+  - Real-time metrics dashboard with **Grafana**
+  - Alerting system via **Prometheus** and custom webhooks
+  - Automated anomaly detection for unusual patterns in requests
+
+- **User Experience Improvements**
+  - Build **interactive frontend UI**
+  - Mobile-first responsive design
+  - Chatbot enhancements for context memory and proactive suggestions
+
+- **Security & Compliance**
+  - Implement **API rate limiting** and authentication
+  - Ensure **GDPR-compliant** data handling
+  - Add role-based access controls for internal users
 
 ---
