@@ -11,7 +11,7 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [🏁 Competitors](#-competitors)
 - [❗ Challenges Faced](#-challenges-faced)
 - [⛔ Project Roadblocks](#-project-roadblocks)
-- [💡 Suggested Solutions](#-suggested-solutions)
+- [💡 Proposed Solutions](#-proposed-solutions)
 - [📈 System Architecture](#-system-architecture)
 - [🔧 Features](#-features)
 - [🧪 Pipeline Phases](#-pipeline-phases)
@@ -86,7 +86,7 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
-## 💡 Suggested Solutions
+## 💡 Proposed Solutions
 
 - **Optimize LLM Models**: Explore quantized models or smaller LLMs with comparable performance to speed up offline inference.
 - **Refine Tagging Ontology**: Collaborate with domain experts to finalize tag schema and implement automated tag validation.  
