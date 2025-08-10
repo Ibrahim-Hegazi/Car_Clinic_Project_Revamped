@@ -614,14 +614,14 @@ See [docs/prompt_templates.pdf](/docs/prompt_templates.pdf) for detailed templat
 
 | Stage                                              | Start Date  | End Date    | Status   |
 |----------------------------------------------------|-------------|-------------|----------|
-| Automated Reddit data extraction                   | 2025-01-05  | 2025-01-10  | ✅ Done  |
-| Offline LLM-powered data cleaning and parsing      | 2025-01-11  | 2025-01-25  | ✅ Done  |
-| Semantic tagging and schema design                 | 2025-01-26  | 2025-02-01  | 🔄 Planned |
-| Embedding generation and similarity matching       | 2025-02-02  | 2025-02-05  | 🔄 Planned  |
-| Branch recommender system integration              | 2025-02-06  | 2025-02-10  | 🔄 Planned  |
-| GitHub CI/CD with Prefect orchestration            | 2025-02-11  | 2025-02-15  | 🔄 In Progress  |
-| REST API endpoints (FastAPI)                       | 2025-02-16  | 2025-02-20  | 🔄 Planned  |
-| Interactive frontend UI (optional)                 | 2025-02-21  | 2025-02-28  | 🔄 Planned |
-| Docker-based deployment                            | 2025-03-01  | 2025-03-03  | 🔄 Planned |
-| Support for Arabic and Spanish languages           | 2025-03-04  | 2025-03-10  | 🔄 Planned |
+| Automated Reddit data extraction                   | 2025-07-15  | 2025-07-30  | ✅ Done  |
+| Offline LLM-powered data cleaning and parsing      | 2025-08-1  | 2025-08-10  | ✅ Done  |
+| Semantic tagging and schema design                 | TBD   | TBD | 🔄 Planned |
+| Embedding generation and similarity matching       | TBD | TBD  | 🔄 Planned  |
+| Branch recommender system integration              | TBD  | TBD  | 🔄 Planned  |
+| GitHub CI/CD with Prefect orchestration            | 2025-07-15  | Ongoing  | 🔄 In Progress  |
+| REST API endpoints (FastAPI)                       | TBD | TBD  | 🔄 Planned  |
+| Interactive frontend UI (optional)                 | TBD  | TBD  | 🔄 Planned |
+| Docker-based deployment                            | TBD  | TBD  | 🔄 Planned |
+| Support for Arabic and Spanish languages           | TBD  | TBD  | 🔄 Planned |
 
