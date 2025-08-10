@@ -7,6 +7,7 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 ## 📌 Table of Contents
 
 - [🔎 Project Overview](#-project-overview)
+- [🚧 Current Technical & Budget Constraints](#-current-technical-&-budget-constraints)
 - [🚀 Final Goals](#-final-goals)
 - [🏁 Competitors](#-competitors)
 - [❗ Challenges Faced](#-challenges-faced)
@@ -38,6 +39,15 @@ This enables:
 - 🌍 Multilingual data augmentation and understanding  
 - 🧭 Nearest optimal repair branch recommendations  
 - 💬 An interactive chatbot interface for customers and mechanics  
+
+---
+
+## 🚧 Current Technical & Budget Constraints
+This project processes ~700 Reddit automotive posts daily to extract structured problem–solution pairs via a locally hosted LLM.  
+Current processing time exceeds **30 hours/day**, making real-time use impractical.  
+Budget constraints prevent the use of paid APIs or cloud GPUs at this stage.  
+
+📄 **Read the full problem & solutions report →** [docs/problem_statement.md](docs/problem_statement.md)
 
 ---
 
