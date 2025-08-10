@@ -678,3 +678,17 @@ _Data Engineer • AI Engineer • NLP & ML Enthusiast • System Designer_
   - Add role-based access controls for internal users
 
 ---
+
+## 🙋‍♂️ Contributing
+Contributions are welcome! Please open an issue first to discuss any proposed changes.
+
+---
+
+## 📞 Contact
+
+For questions or support, please reach out to:  
+
+**Ibrahim Hegazi**  
+📧 Email: [ihegaziwork@gmail.com](mailto:ihegaziwork@gmail.com)  
+🐙 GitHub: [Ibrahim-Hegazi](https://github.com/Ibrahim-Hegazi)  
+💼 LinkedIn: [Ibrahim Hegazi](https://www.linkedin.com/in/ibrahim-hegazi/)
