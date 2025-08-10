@@ -641,7 +641,7 @@ All rights reserved — you may not use, copy, modify, or distribute this code w
 **Ibrahim Hegazi**  
 _Data Engineer • AI Engineer • NLP & ML Enthusiast • System Designer_  
 
-🌐 [GitHub](https://github.com/Ibrahim-Hegazi) | [LinkedIn](#)
+🌐 [GitHub](https://github.com/Ibrahim-Hegazi) | [LinkedIn](https://www.linkedin.com/in/ibrahim-hegazi/)
 
 ---
 
