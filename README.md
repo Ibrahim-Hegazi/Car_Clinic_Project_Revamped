@@ -629,4 +629,12 @@ See [docs/prompt_templates.pdf](/docs/prompt_templates.pdf) for detailed templat
 | 🚪 11 | Backend Integration (FastAPI) | TBD | TBD | 🔄 Planned |
 | 📘 12 | Documentation & Finalization | 2025-07-15 | Ongoing | 🔄 In Progress |
 
+---
+
+## 🧾 License
+No license has been selected for this project yet.  
+All rights reserved — you may not use, copy, modify, or distribute this code without explicit permission from the author.
+
+---
+
 
