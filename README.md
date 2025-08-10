@@ -637,4 +637,18 @@ All rights reserved — you may not use, copy, modify, or distribute this code w
 
 ---
 
+## 👨‍💻 Author
+**Ibrahim Hegazi**  
+Data Engineer • AI Engineer • NLP & ML Enthusiast • System Designer  
+[GitHub](https://github.com/Ibrahim-Hegazi) 
+[LinkedIn](https://www.linkedin.com/in/ibrahim-hegazi/)  
 
+---
+
+## 📬 Future Improvements
+- Cloud deployment on **GCP**, **Azure**, or **AWS**  
+- Integration with **Car Clinic’s internal CRM system**  
+- Feedback collection loop for **model retraining**  
+- Real-time monitoring with **Grafana** and **Prometheus**  
+
+---
