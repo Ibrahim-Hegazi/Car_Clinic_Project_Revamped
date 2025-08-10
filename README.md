@@ -611,18 +611,22 @@ See [docs/prompt_templates.pdf](/docs/prompt_templates.pdf) for detailed templat
 ---
 
 ## 🗓 Roadmap
+## 🗓 Roadmap  
 *(TBD = To Be Determined)*
 
-| Stage                                              | Start Date  | End Date    | Status   |
-|----------------------------------------------------|-------------|-------------|----------|
-| Automated Reddit data extraction                   | 2025-07-15  | 2025-07-30  | ✅ Done  |
-| Offline LLM-powered data cleaning and parsing      | 2025-08-1  | 2025-08-10  | ✅ Done  |
-| Semantic tagging and schema design                 | TBD   | TBD | 🔄 Planned |
-| Embedding generation and similarity matching       | TBD | TBD  | 🔄 Planned  |
-| Branch recommender system integration              | TBD  | TBD  | 🔄 Planned  |
-| GitHub CI/CD with Prefect orchestration            | 2025-07-15  | Ongoing  | 🔄 In Progress  |
-| REST API endpoints (FastAPI)                       | TBD | TBD  | 🔄 Planned  |
-| Interactive frontend UI (optional)                 | TBD  | TBD  | 🔄 Planned |
-| Docker-based deployment                            | TBD  | TBD  | 🔄 Planned |
-| Support for Arabic and Spanish languages           | TBD  | TBD  | 🔄 Planned |
+| Phase | Description | Start Date | End Date | Status |
+|-------|-------------|------------|----------|--------|
+| ✅ 1  | Reddit Data Extraction (Scraping) | 2025-07-15 | 2025-07-30 | ✅ Done |
+| ✅ 2  | Reddit Data Cleaning (LLM-Based) | 2025-08-01 | 2025-08-10 | ✅ Done |
+| 🦑 3  | Data Augmentation & Translation | TBD | TBD | 🔄 Planned |
+| 🌿 4  | Tag Generator (Problem + Solution Tags) | TBD | TBD | 🔄 Planned |
+| 🔢 5  | Embedding Generation (Problems + Branches) | TBD | TBD | 🔄 Planned |
+| 🗺️ 6  | Branch Recommender System | TBD | TBD | 🔄 Planned |
+| 🧪 7  | Local & Integrated Testing | TBD | TBD | 🔄 Planned |
+| 🌀 8  | Prefect Orchestration | 2025-07-15 | Ongoing | 🔄 In Progress |
+| ☁️ 9  | GitHub Actions & Deployment | TBD | TBD | 🔄 Planned |
+| 📘 10 | LLM Chatbot Engine | TBD | TBD | 🔄 Planned |
+| 🚪 11 | Backend Integration (FastAPI) | TBD | TBD | 🔄 Planned |
+| 📘 12 | Documentation & Finalization | 2025-07-15 | Ongoing | 🔄 In Progress |
+
 
