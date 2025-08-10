@@ -7,11 +7,12 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 ## 📌 Table of Contents
 
 - [🔎 Project Overview](#-project-overview)
+- [🚧 Current Technical & Budget Constraints](#-current-technical--budget-constraints)
 - [🚀 Final Goals](#-final-goals)
 - [🏁 Competitors](#-competitors)
 - [❗ Challenges Faced](#-challenges-faced)
 - [⛔ Project Roadblocks](#-project-roadblocks)
-- [💡 Suggested Solutions](#-suggested-solutions)
+- [💡 Proposed Solutions](#-proposed-solutions)
 - [📈 System Architecture](#-system-architecture)
 - [🔧 Features](#-features)
 - [🧪 Pipeline Phases](#-pipeline-phases)
@@ -38,6 +39,16 @@ This enables:
 - 🌍 Multilingual data augmentation and understanding  
 - 🧭 Nearest optimal repair branch recommendations  
 - 💬 An interactive chatbot interface for customers and mechanics  
+
+---
+
+## 🚧 Current Technical & Budget Constraints
+This project processes ~700 Reddit automotive posts daily to extract structured problem–solution pairs via a locally hosted LLM.  
+Current processing time exceeds **30 hours/day**, making real-time use impractical.  
+Budget constraints prevent the use of paid APIs or cloud GPUs at this stage.  
+
+📄 **Read the full problem & solutions report →** [extra_scripts/Merge Mail Maker/Reddit_LLM_Pipeline_Optimization_Report.docx](extra_scripts/Merge%20Mail%20Maker/Reddit_LLM_Pipeline_Optimization_Report.docx)
+
 
 ---
 
@@ -86,7 +97,7 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
-## 💡 Suggested Solutions
+## 💡 Proposed Solutions
 
 - **Optimize LLM Models**: Explore quantized models or smaller LLMs with comparable performance to speed up offline inference.
 - **Refine Tagging Ontology**: Collaborate with domain experts to finalize tag schema and implement automated tag validation.  
@@ -606,4 +617,89 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 - Few-shot learning and instruction-based prompts  
 - Flexible for multi-language support and augmentation
 
+See [docs/prompt_templates.pdf](/docs/prompt_templates.pdf) for detailed templates.
+
 ---
+
+## 🗓 Roadmap
+## 🗓 Roadmap  
+*(TBD = To Be Determined)*
+
+| Phase | Description | Start Date | End Date | Status |
+|-------|-------------|------------|----------|--------|
+| ✅ 1  | Reddit Data Extraction (Scraping) | 2025-07-15 | 2025-07-30 | ✅ Done |
+| ✅ 2  | Reddit Data Cleaning (LLM-Based) | 2025-08-01 | 2025-08-10 | ✅ Done |
+| 🦑 3  | Data Augmentation & Translation | TBD | TBD | 🔄 Planned |
+| 🌿 4  | Tag Generator (Problem + Solution Tags) | TBD | TBD | 🔄 Planned |
+| 🔢 5  | Embedding Generation (Problems + Branches) | TBD | TBD | 🔄 Planned |
+| 🗺️ 6  | Branch Recommender System | TBD | TBD | 🔄 Planned |
+| 🧪 7  | Local & Integrated Testing | TBD | TBD | 🔄 Planned |
+| 🌀 8  | Prefect Orchestration | 2025-07-15 | Ongoing | 🔄 In Progress |
+| ☁️ 9  | GitHub Actions & Deployment | TBD | TBD | 🔄 Planned |
+| 📘 10 | LLM Chatbot Engine | TBD | TBD | 🔄 Planned |
+| 🚪 11 | Backend Integration (FastAPI) | TBD | TBD | 🔄 Planned |
+| 📘 12 | Documentation & Finalization | 2025-07-15 | Ongoing | 🔄 In Progress |
+
+---
+
+## 🧾 License
+No license has been selected for this project yet.  
+All rights reserved — you may not use, copy, modify, or distribute this code without explicit permission from the author.
+
+---
+
+## 👨‍💻 Author
+**Ibrahim Hegazi**  
+_Data Engineer • AI Engineer • NLP & ML Enthusiast • System Designer_  
+
+🌐 [GitHub](https://github.com/Ibrahim-Hegazi) | [LinkedIn](https://www.linkedin.com/in/ibrahim-hegazi/)
+
+---
+
+## 📬 Future Improvements
+
+- **Cloud Deployment & Scalability**
+  - Deploy pipeline and API services to **GCP**, **Azure**, or **AWS**
+  - Use serverless functions for on-demand processing
+  - Enable auto-scaling for high-traffic periods
+
+- **Integration with Car Clinic’s Internal Systems**
+  - Connect to **CRM** for seamless ticket creation and tracking
+  - Sync with internal repair history databases
+  - Enable push notifications for branch managers
+
+- **Model Enhancements**
+  - Implement continuous **feedback loops** for retraining
+  - Expand **multilingual support** beyond Arabic & Spanish
+  - Integrate domain-specific fine-tuning for higher tagging accuracy
+
+- **Observability & Monitoring**
+  - Real-time metrics dashboard with **Grafana**
+  - Alerting system via **Prometheus** and custom webhooks
+  - Automated anomaly detection for unusual patterns in requests
+
+- **User Experience Improvements**
+  - Build **interactive frontend UI**
+  - Mobile-first responsive design
+  - Chatbot enhancements for context memory and proactive suggestions
+
+- **Security & Compliance**
+  - Implement **API rate limiting** and authentication
+  - Ensure **GDPR-compliant** data handling
+  - Add role-based access controls for internal users
+
+---
+
+## 🙋‍♂️ Contributing
+Contributions are welcome! Please open an issue first to discuss any proposed changes.
+
+---
+
+## 📞 Contact
+
+For questions or support, please reach out to:  
+
+**Ibrahim Hegazi**  
+📧 Email: [ihegaziwork@gmail.com](mailto:ihegaziwork@gmail.com)  
+🐙 GitHub: [Ibrahim-Hegazi](https://github.com/Ibrahim-Hegazi)  
+💼 LinkedIn: [Ibrahim Hegazi](https://www.linkedin.com/in/ibrahim-hegazi/)
