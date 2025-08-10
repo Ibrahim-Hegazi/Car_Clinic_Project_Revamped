@@ -10,7 +10,7 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [🚧 Current Technical & Budget Constraints](#-current-technical--budget-constraints)
 - [🚀 Final Goals](#-final-goals)
 - [🏁 Competitors](#-competitors)
-- [❗ Challenges Faced](#-challenges-faced)
+- [❗Key Technical Challenges & Current Roadblocks](#-key-technical-challenges--roadblocks)
 - [⛔ Project Roadblocks](#-project-roadblocks)
 - [💡 Proposed Solutions](#-proposed-solutions)
 - [📈 System Architecture](#-system-architecture)
@@ -75,25 +75,19 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 
 ---
 
-## ❗ Challenges Faced
+##❗Key Technical Challenges & Roadblocks
 
-- **Data Noise and Quality**: Reddit data contains spam, bot posts, slang, and irrelevant content making cleaning complex.  
-- **LLM Offline Processing**: Running large language models locally for data cleaning and understanding requires significant compute and optimization. Therefore leading to other solutions that might be costly.
-- **Ollama-Based LLM Processing Time**: Current data cleaning with Ollama-based LLMs, while providing high-quality structured outputs, is time-intensive. For example, processing around 700 rows in Phase 2 can take approximately 31 hours to complete. This runtime presents a bottleneck for scaling and requires optimization or infrastructure improvements to achieve timely data processing.
-- **Tagging Consistency**: Creating a comprehensive yet manageable tag schema for diverse car issues and mechanic specialties is difficult.  
-- **Semantic Matching Accuracy**: Aligning user problems with correct branches involves fine-tuning embeddings and filter heuristics.  
-- **Multilingual and Slang Variations**: Handling multiple languages and informal expressions adds complexity to augmentation and translation.  
-- **Integration Complexity**: Combining multiple phases—data extraction, cleaning, tagging, embedding, recommendation, and chatbot—requires robust orchestration.
+This project faces a combination of **data-related**, **computational**, and **integration** challenges that impact performance, scalability, and deployment readiness:
 
----
-
-## ⛔ Project Roadblocks
-
-- Limited computational resources for efficient offline LLM inference slowed data cleaning throughput.  
-- Incomplete or evolving tag schemas caused misclassification in early testing phases.  
-- Integration of real-time chatbot with backend recommender still in prototype stage, delaying deployment.  
-- Dataset imbalance due to sparse comments or rare issues affected model generalization.  
-- Ongoing challenges in automating end-to-end orchestration with retries and failure handling.
+- **Data Noise & Quality**: Reddit automotive threads contain spam, bot-generated content, slang, and off-topic discussions, making high-quality extraction difficult.  
+- **Multilingual & Slang Variations**: Posts often mix languages or use informal terms, requiring complex augmentation and translation workflows.  
+- **Tagging Consistency & Schema Evolution**: Designing and maintaining a comprehensive tag schema for diverse car issues is challenging; evolving tags have caused misclassifications in early tests.  
+- **LLM Processing Time & Compute Limits**: The locally hosted Ollama-based LLM produces high-quality structured outputs but processes ~700 posts in ~31 hours, far exceeding real-time requirements. Limited computational resources prevent faster inference and rule out paid APIs or cloud GPU usage for now.  
+- **Semantic Matching Accuracy**: Matching user problems to the correct branch requires precise embeddings and fine-tuned similarity filters, which are still being optimized.  
+- **Dataset Imbalance**: Sparse comments and rare issue types reduce model generalization performance.  
+- **Integration Complexity**: Orchestrating multiple pipeline phases—data ingestion, cleaning, tagging, embeddings, recommendation, and chatbot—requires robust coordination and error handling.  
+- **Incomplete Chatbot Integration**: The real-time chatbot is still in prototype form, with pending API and frontend integration.  
+- **Pipeline Reliability**: End-to-end automation lacks mature retry logic, failure recovery, and alerting, which impacts production readiness.
 
 ---
 
