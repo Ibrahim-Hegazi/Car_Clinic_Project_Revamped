@@ -10,7 +10,7 @@ A fully autonomous, LLM-powered data pipeline that extracts real-world automotiv
 - [🚧 Current Technical & Budget Constraints](#-current-technical--budget-constraints)
 - [🚀 Final Goals](#-final-goals)
 - [🏁 Competitors](#-competitors)
-- [❗Key Technical Challenges & Current Roadblocks](#-key-technical-challenges--roadblocks)
+- [❗Key Technical Challenges & Roadblocks](#-key-technical-challenges--roadblocks)
 - [⛔ Project Roadblocks](#-project-roadblocks)
 - [💡 Proposed Solutions](#-proposed-solutions)
 - [📈 System Architecture](#-system-architecture)
