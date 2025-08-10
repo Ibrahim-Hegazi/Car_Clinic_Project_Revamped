@@ -42,7 +42,7 @@ This enables:
 ---
 
 ## 🚧 Current Technical & Budget Constraints
-This project processes ~700 Reddit automotive posts daily to extract structured problem–solution pairs via a locally hosted LLM.  
+This project processes ~700 Reddit automotive posts daily to extract structured problem–solution pairs via a GitHub hosted LLM.  
 Current processing time exceeds **30 hours/day**, making real-time use impractical.  
 Budget constraints prevent the use of paid APIs or cloud GPUs at this stage.  
 
