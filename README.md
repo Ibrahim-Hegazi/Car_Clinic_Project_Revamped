@@ -49,6 +49,9 @@ Budget constraints prevent the use of paid APIs or cloud GPUs at this stage.
 
 📄 **Read the full problem & solutions report →** [extra_scripts/Merge Mail Maker](extra_scripts/Merge Mail Maker/Reddit_LLM_Pipeline_Optimization_Report.docx)
 
+📄 **Read the full problem & solutions report →** [extra_scripts/Merge%20Mail%20Maker/Reddit_LLM_Pipeline_Optimization_Report.docx](extra_scripts/Merge%20Mail%20Maker/Reddit_LLM_Pipeline_Optimization_Report.docx)
+
+
 ---
 
 ## 🚀 Final Goals
