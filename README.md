@@ -607,4 +607,21 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 - Flexible for multi-language support and augmentation
 
 See [docs/prompt_templates.pdf](/docs/prompt_templates.pdf) for detailed templates.
+
 ---
+
+## 🗓 Roadmap
+
+| Stage                                              | Start Date  | End Date    | Status   |
+|----------------------------------------------------|-------------|-------------|----------|
+| Automated Reddit data extraction                   | 2025-01-05  | 2025-01-10  | ✅ Done  |
+| Offline LLM-powered data cleaning and parsing      | 2025-01-11  | 2025-01-25  | ✅ Done  |
+| Semantic tagging and schema design                 | 2025-01-26  | 2025-02-01  | ✅ Done  |
+| Embedding generation and similarity matching       | 2025-02-02  | 2025-02-05  | ✅ Done  |
+| Branch recommender system integration              | 2025-02-06  | 2025-02-10  | ✅ Done  |
+| GitHub CI/CD with Prefect orchestration            | 2025-02-11  | 2025-02-15  | ✅ Done  |
+| REST API endpoints (FastAPI)                       | 2025-02-16  | 2025-02-20  | 🔄 In Progress |
+| Interactive frontend UI (optional)                 | 2025-02-21  | 2025-02-28  | 🔄 Planned |
+| Docker-based deployment                            | 2025-03-01  | 2025-03-03  | 🔄 Planned |
+| Support for Arabic and Spanish languages           | 2025-03-04  | 2025-03-10  | 🔄 Planned |
+
