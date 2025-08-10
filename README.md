@@ -606,4 +606,5 @@ Several projects and platforms tackle automotive problem diagnosis and repair re
 - Few-shot learning and instruction-based prompts  
 - Flexible for multi-language support and augmentation
 
+See /docs/prompt_templates.pdf for detailed templates.
 ---
