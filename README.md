@@ -47,7 +47,7 @@ This project processes ~700 Reddit automotive posts daily to extract structured 
 Current processing time exceeds **30 hours/day**, making real-time use impractical.  
 Budget constraints prevent the use of paid APIs or cloud GPUs at this stage.  
 
-📄 **Read the full problem & solutions report →** [docs/problem_statement.md](docs/problem_statement.md)
+📄 **Read the full problem & solutions report →** [extra_scripts/Merge Mail Maker](extra_scripts/Merge Mail Maker/Reddit_LLM_Pipeline_Optimization_Report.docx)
 
 ---
 
