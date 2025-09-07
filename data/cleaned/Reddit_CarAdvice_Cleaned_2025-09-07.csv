@@ -1,0 +1,4 @@
+post_id,is_valid,problem,solution,Extra General Help
+1naelvj,True,"No start, no fuel pump kick-on, no spark at plugs or coil",Check all the body grounds,"Also check for any open or shorted circuits in the electrical system and inspect the battery, starter motor, fuel pump, distributor, ignition system, and wiring harness for potential issues."
+1naefuv,True,Loss of power in throttle and sluggish acceleration,Bad wire or a connector pin in the throttle linkage assembly or harness.,Consider checking other wires and connectors near the throttle linkage assembly for any signs of damage.
+1nae6eq,True,Play in lug studs due to the removal of the wheel,Reinstall the wheel and torque lug nuts properly.,"If the problem persists after reinstalling the wheel, it might be worth inspecting the rotor for rust."
