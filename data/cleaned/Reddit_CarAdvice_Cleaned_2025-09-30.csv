@@ -1,0 +1,3 @@
+post_id,is_valid,problem,solution,Extra General Help
+1nty2h4,True,"Car won't start, possibly due to a failing battery or starter",Test the battery first,"If battery test indicates low charge or failure, replace the battery. If battery tests good and car still won't start, the starter may need replacement."
+1ntxq02,True,Honda Civic 2004 is experiencing p0344 code due to a potential issue with the camshaft sensor signal,"Check for bare spots in wiring, defective sensor or harness connector",Consider taking your vehicle back to the mechanic to have them investigate the problem further.
