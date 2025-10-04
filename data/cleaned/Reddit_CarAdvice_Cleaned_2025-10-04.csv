@@ -1,0 +1,2 @@
+post_id,is_valid,problem,solution,Extra General Help
+1nxeyvw,True,The white wire is not transmitting expected voltage to the mass airflow sensor.,"Test for continuity between the ground on the battery or body and the white wire to determine if it's a ground issue. If it's not, check the voltage being supplied to the mass airflow sensor by testing the white wire with a multimeter.","It is common for German cars to use brown for the ground wire. Also, be careful when working with high voltages as it may damage the ECU."
