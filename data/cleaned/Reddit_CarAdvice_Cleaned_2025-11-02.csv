@@ -1,0 +1,7 @@
+post_id,is_valid,problem,solution,Extra General Help
+1om2w5k,True,P0024 code related to a sticky AVCS on the exhaust side of Subaru's engine,"Fresh synthetic oil, correct weight
+Replace or clean the AVCS solenoid on that bank
+Check/clean the tiny banjo bolt filter if your engine has one
+Consider a gentle flush before the oil change (Liqui-Moly/Seafoam)
+Use a block heater + warm up in winter",It is recommended to start and run the car a bit longer before driving it on cold days to allow the engine to warm up.
+1om2ulo,True,Noise when releasing the clutch,"['Bad clutch plate', 'Broken CV joint']","It's important to check if the car is in gear or neutral before letting out the clutch. If the noise persists after checking these potential issues, further diagnostic may be needed."
