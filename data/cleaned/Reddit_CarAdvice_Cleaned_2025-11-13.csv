@@ -1,0 +1,3 @@
+post_id,is_valid,problem,solution,Extra General Help
+1ovlia3,True,Blower relay replacement,The blower relay is part of the temperature control computer that lives behind the glove box.,Check your car's service manual for specific location details and procedures before attempting to replace the blower relay.
+1ovlden,True,Battery light and power steering warning lights intermittent,"InvestigatorKey3959 (Score: 2): That's an alternator issue. Have the shop test the alternator under load. If it dips, replace it.","Also, consider checking the battery and voltage regulator as potential causes for intermittent issues."
